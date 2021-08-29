@@ -14,7 +14,7 @@
 * [List of what things are called in the files](helpful-commands/list-of-what-things-are-called-in-the-files.md)
 * [Copy Paste Commands](helpful-commands/copy-paste-commands.md)
 
-## Coding Modifications
+## Scripting
 
-* [Custom Dev Menu Tab \(UNSAFE\)](coding-modifications/custom-dev-menu-tab.md)
+* [Custom Dev Menu Tab \(UNSAFE\)](scripting/custom-dev-menu-tab.md)
 
