@@ -8,7 +8,7 @@ The playlist file is a plain text file located in your game directory's `platfor
 * Gamemodes \(e.g. `custom_tdm`, `survival`\) and what maps these gamemodes can be played on
 * Gamemode parameters \(e.g. `default_shield_hp` for `custom_tdm`\)
 
-Through the playlist file, you can customize any gamemode without knowing how to code.
+Through the playlist file, you can customize any gamemode without needing to know how to code.
 
 ## How do I modify the playlist file?
 
