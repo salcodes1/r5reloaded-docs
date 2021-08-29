@@ -1,4 +1,4 @@
-# Custom Dev Menu Tab
+# Custom Dev Menu Tab \(UNSAFE\)
 
 {% hint style="danger" %}
 We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary security risks! Instead, refer to the page on how to add a custom menu altogether.
@@ -6,7 +6,7 @@ We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary s
 
 1: you start by going into `\platform\scripts\vscripts\ai\sh_dev_npc_settings.gnut`and adds in the top a new global function `Type global function <Setup<something>` \(Example: global function SetupCustomThings\)
 
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
   
 2: you then go down in the bottom and adds a new void function `Type "void function Setup<something>()"` \(Example: void function SetupCustomThings\(\)\)
@@ -27,7 +27,7 @@ We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary s
 
 5: then you have found where you want the menu to be then type `SetupDevMenu( "<Name of the new dev menu>", SetDevMenu_<what you typed after "Setup" in your global and void function> )` \(Example: SetupDevMenu\( "Custom Community Things", SetDevMenu\_CustomThings \)\)
 
-![](.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 6: then go down under line 392 and add a new void function:
 
@@ -38,5 +38,5 @@ void function SetDevMenu_<what you typed after "Setup" in your global and void f
 }
 ```
 
-![](.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
