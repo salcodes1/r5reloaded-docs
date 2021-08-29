@@ -31,7 +31,7 @@ Gamemodes are **bases** which the playlists **build upon**. You do not typically
 
 #### Playlists block
 
-This is where you can define playlists in order to modify the behavior of the gamemodes. 
+This is where you can define playlists in order to modify the behavior of the gamemodes. We will talk about this section more in just a bit.
 
 {% hint style="info" %}
 Multiple playlists can have the same base gamemode.
