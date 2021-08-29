@@ -1,7 +1,7 @@
 # KV Table
 
-## All gamemodes
-
+{% tabs %}
+{% tab title="All Gamemodes" %}
 | Name | Type | Notes |
 | :--- | :--- | :--- |
 | `min_players` | `int` |  |
@@ -14,9 +14,9 @@
 | `survival_infinite_ammo` | `bool` |  |
 | `ground_loot_enable` | `bool` | Whether loot should spawn on the ground |
 | `lootbin_loot_enable` | `bool` | Whether loot should spawn in loot bins |
+{% endtab %}
 
-## Custom TDM
-
+{% tab title="Custom TDM" %}
 <table>
   <thead>
     <tr>
@@ -89,4 +89,6 @@
     </tr>
   </tbody>
 </table>
+{% endtab %}
+{% endtabs %}
 
