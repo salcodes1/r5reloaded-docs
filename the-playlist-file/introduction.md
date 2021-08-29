@@ -1,14 +1,14 @@
-# Introduction
+# Introduzione
 
-## What is the playlist file?
+## Cos'è un file playlist?
 
-The playlist file is a plain text file located in your game directory's `platform` folder. It manages:
+Il file playlist è un file di testo locato nella cartella `platform` della vostra cartella di gioco. Esso gestisce:
 
-* Default game parameters \(e.g. `match_ending_enabled`\)
-* Gamemodes \(e.g. `custom_tdm`, `survival`\) and what maps these gamemodes can be played on
-* Gamemode parameters \(e.g. `default_shield_hp` for `custom_tdm`\)
+* I parametri base del gioco \(p.e. `match_ending_enabled`\)
+* Le modalità di gioco \(p.e. `custom_tdm`, `survival`\) e quali mappe possono essere giocate con queste modalità
+* I parametri delle modalità \(p.e. `default_shield_hp` per `custom_tdm`\)
 
-Through the playlist file, you can customize any gamemode without needing to know how to code.
+Attraverso il file playlist, puoi customizzare qualsiasi modalità senza sapere codificare.
 
 ## How do I modify the playlist file?
 

@@ -1,12 +1,12 @@
-# Welcome
+# Benvenuti!
 
-## Introduction
+## Introduzione
 
-Welcome to the R5Reloaded documentation. Here, you will find our FAQ, Troubleshooting steps for various issues, changelogs, bugfixes, and new features that you can use.
+Benvenuti alla documentazione di R5Reloaded. Qui troverete il nostro FAQ, i passaggi di Troubleshooting per vari problemi, i registri dei cambiamenti, le soluzioni ai bug, e le nuove feature che potrete utilizzare.
 
-Use the sidebar to navigate to your desired subject of interest.
+Usate la barra laterale per andare all'argomento che volete.
 
-## How to contribute
+## Come contribuire
 
-Submit a Pull Request to [https://github.com/salcodes1/r5reloaded-docs](https://github.com/salcodes1/r5reloaded-docs) and we will analyze it. Do note any feature you document must be part of the official repos.
+Presentate una Pull Request a [https://github.com/salcodes1/r5reloaded-docs](https://github.com/salcodes1/r5reloaded-docs) e l'analizzeremo. Notate che ciò che modificate deve far parte dei repositories ufficiali.
 
