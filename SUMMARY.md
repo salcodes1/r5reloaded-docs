@@ -16,5 +16,6 @@
 
 ## Scripting
 
+* [Introduction](scripting/introduction.md)
 * [Custom Dev Menu Tab \(UNSAFE\)](scripting/custom-dev-menu-tab.md)
 
