@@ -1,5 +1,9 @@
 # Custom Dev Menu Tab
 
+{% hint style="danger" %}
+We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary security risks! Instead, refer to the page on how to add a custom menu altogether.
+{% endhint %}
+
 1: you start by going into `\platform\scripts\vscripts\ai\sh_dev_npc_settings.gnut`and adds in the top a new global function `Type global function <Setup<something>` \(Example: global function SetupCustomThings\)
 
 ![](.gitbook/assets/image%20%282%29.png)
