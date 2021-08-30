@@ -48,7 +48,9 @@ We still need to fix/implement some of the legends as Respawn didn't ship all ne
 
 ## Can I play Solos/Duos/Quads/32v32/... ?
 
-Yes, that's up to you! Check [The Playlist File](the-playlist-file/introduction.md) introduction to learn how to modify team composition and much more!
+Yes, that's up to you! Check The Playlist file category to learn how to modify team composition and much more!
+
+
 
 ## Can I play on maps newer than S3?
 
@@ -77,7 +79,7 @@ When creating an alternate account don't use disposable emails. EA will autoban 
 
 ## Are there any bugs?
 
-**YES**, there are lots of bugs. Bare with us though, as we fix them daily. To follow our progress on features/bugs, check out our [Trello ](https://trello.com/b/ymr4R3j9/r5reloaded)page!
+**YES**, there are lots of bugs. Bare with us though, as we fix them daily. To follow our progress on features/bugs, check out our [Trello ](https://trello.com/b/ymr4R3j9/r5reloaded)page
 
 ## Can I contribute?
 
@@ -85,5 +87,9 @@ Sure thing!
 
 Please open pull requests and issues on our GitHub projects. We appreciate all the help! Additionally, you can contribute to this very documentation by submitting pull requests.
 
-Check out all of our repos in [Links](links.md).
+Check out all of our repos on the Links page.
+
+{% page-ref page="links.md" %}
+
+
 
