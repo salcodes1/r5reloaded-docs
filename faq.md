@@ -50,8 +50,6 @@ We still need to fix/implement some of the legends as Respawn didn't ship all ne
 
 Yes, that's up to you! Check The Playlist file category to learn how to modify team composition and much more!
 
-
-
 ## Can I play on maps newer than S3?
 
 For now, you can't. Here are all the available maps:
@@ -74,8 +72,6 @@ We suggest not using your main account for this. You need an origin account with
 {% hint style="danger" %}
 When creating an alternate account don't use disposable emails. EA will autoban it based on the email domain. Use something _legit_ such as Gmail, Yahoo, Hotmail etc.
 {% endhint %}
-
-
 
 ## Are there any bugs?
 
