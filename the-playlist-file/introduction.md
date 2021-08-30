@@ -44,10 +44,10 @@
 ここでは、ダメージや弾薬の数など、武器の値を変更することができます。武器のプロパティを変更する方法については、「武器」のセクションで詳しく説明しています。
 
 {% hint style="danger" %}
-We urge you to use this method instead of modifying the files `scripts/weapons/*` , as the changes are broadcasted to every player connected to you, so no weird issues arise using this method. This way, no desync issues/weird bugs will arise.
+scripts/weapons/\*を変更するのではなく、この方法を使うことで、接続しているすべてのプレイヤーに変更が反映されるため、問題が発生しません。この方法では、同期ズレの問題や奇妙なバグは発生しません。
 {% endhint %}
 
-####  Now, let's look at an example:
+####  では、例を見てみましょう。
 
 ```yaml
 Playlists
@@ -86,7 +86,9 @@ Playlists
 
 ```
 
-The above is an excerpt from the `custom_tdm` **playlist** settings. You can find the full version in the file.
+上記は、`custom_tdm`**プレイリスト**設定の一部です。すべてのプレイリスト設定はファイルの中にあります。
+
+まず第一に、//の前にあるものはゲームでは読まれず、_**`コメント`**_と名付けられます\(例://whitelisted\_weapon\)。コメントは、あなたが行ったことを他の人に理解してもらうため、あるいはあなたが書いたすべてのプロパティをきれいに整理するためにのみ存在します。よくあるのは、一時的に無効にしたいプロパティを削除せずにコメントしておくことで、ゲームはその内容を読みません。
 
 First of all, anything preceded by `//` is not read by the game and is named a **comment**. It is there only to help other people understand what you've done, or to neatly organize all the properties you've written. A common practice is to **comment** properties you want to temporarily disable without deleting them, as the game will not read the contents.
 
