@@ -1,8 +1,7 @@
 # Table of contents
 
 * [R5reloadedドキュメントへようこそ](README.md)
-* [FAQ](untitled/README.md)
-  * [リンク](untitled/rinku.md)
+* [FAQ](untitled.md)
 
 ## プレイリストファイルについて <a id="the-playlist-file"></a>
 
