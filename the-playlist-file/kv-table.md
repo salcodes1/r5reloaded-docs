@@ -4,14 +4,14 @@
 {% tab title="All Gamemodes" %}
 | Name | Type | Notes |
 | :--- | :--- | :--- |
-| `min_players` | `int` |  |
-| `max_players` | `int` |  |
-| `max_team_players` | `int` |  |
-| `match_ending_enabled` | `bool` |  |
-| `skydive_ziplines_enabled` | `bool` |  |
-| `survival_jumpkit_enabled` | `bool` |  |
-| `survival_wallrun_enabled` | `bool` |  |
-| `survival_infinite_ammo` | `bool` |  |
+| `min_players` | `int` | Minimum number of players required to start a match |
+| `max_players` | `int` | Maximum player limit |
+| `max_team_players` | `int` | Number of players in a team |
+| `match_ending_enabled` | `bool` | Champion screen |
+| `skydive_ziplines_enabled` | `bool` | Activating ziplines |
+| `survival_jumpkit_enabled` | `bool` | Double jump Mode |
+| `survival_wallrun_enabled` | `bool` | Wallrun mode |
+| `survival_infinite_ammo` | `bool` | Unlimited ammo for all weapons |
 | `ground_loot_enable` | `bool` | Whether loot should spawn on the ground |
 | `lootbin_loot_enable` | `bool` | Whether loot should spawn in loot bins |
 {% endtab %}
