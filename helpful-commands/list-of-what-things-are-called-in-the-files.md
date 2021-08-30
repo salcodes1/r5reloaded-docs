@@ -12,13 +12,13 @@ description: Here can you find what all of the legends and weapons are called in
 Bangalore = settings/player/mp/pilot_survival_firesupport.rpak
 Bloodhound = settings/player/mp/pilot_survival_tracker.rpak
 Caustic = settings/player/mp/pilot_survival_gas.rpak
-Crypto = 
+Crypto = settings/player/mp/pilot_survival_crypto.rpak
 Gibraltar = settings/player/mp/pilot_survival_gunner.rpak
 Lifeline = settings/player/mp/pilot_survival_medic.rpak
 Mirage = settings/player/mp/pilot_survival_holopilot.rpak
 Octane = settings/player/mp/pilot_survival_stim.rpak
 Pathfinder = settings/player/mp/pilot_survival_grapple.rpak
-Wattson = 
+Wattson = settings/player/mp/pilot_survival_barricade.rpak
 Wraith = settings/player/mp/pilot_survival_closer.rpak
 ```
 
