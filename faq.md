@@ -48,7 +48,7 @@ We still need to fix/implement some of the legends as Respawn didn't ship all ne
 
 ## Can I play Solos/Duos/Quads/32v32/... ?
 
-Yes, that's up to you! Check [The Playlist File](comp-server-500/introduction.md) introduction to learn how to modify team composition and much more!
+Yes, that's up to you! Check [The Playlist File](the-playlist-file/introduction.md) introduction to learn how to modify team composition and much more!
 
 ## Can I play on maps newer than S3?
 

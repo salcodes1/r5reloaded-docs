@@ -12,16 +12,16 @@ Origin will quickly ban your account if it detects you've used a temp mail.
 
 After you log in, you need to add Apex Legends to your library:
 
-![](.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 Once you do that, it's recommended to disable auto-updates.   
 To do so go to `Origin->Application Settings`.
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 Find the `Client update` section, and disable `Automatic game updates`.
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 After you are done with everything, leave origin in the background and open the game with `Run R5 Reloaded.exe`. 
 

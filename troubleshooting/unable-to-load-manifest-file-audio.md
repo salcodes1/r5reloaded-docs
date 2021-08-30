@@ -2,7 +2,7 @@
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
-Getting this Engine Error is similar to [GRXStoreOffer script error](../grxstoreoffer/), it means you might have messed up extracting [scripts\_r5](https://github.com/Mauler125/scripts_r5) in the right place.
+Getting this Engine Error is similar to [GRXStoreOffer script error](grxstoreoffer.md), it means you might have messed up extracting [scripts\_r5](https://github.com/Mauler125/scripts_r5) in the right place.
 
 Make sure the path to your scripts folder is `platform\scripts\`, and that you properly extracted the contents of [scripts\_r5](https://github.com/Mauler125/scripts_r5) in it.
 

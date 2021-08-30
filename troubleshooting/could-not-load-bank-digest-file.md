@@ -1,6 +1,6 @@
 # Could not load bank digest file audio\ship\general.mbnk\_digest
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 In this case, the audio folder is missing or was corrupted. You can check if the file even exists, but most likely it won't.
 
