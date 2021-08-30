@@ -88,9 +88,9 @@ Playlists
 
 上記は、`custom_tdm`**プレイリスト**設定の一部です。すべてのプレイリスト設定はファイルの中にあります。
 
-まず第一に、//の前にあるものはゲームでは読まれず、_**`コメント`**_と名付けられます\(例://whitelisted\_weapon\)。コメントは、あなたが行ったことを他の人に理解してもらうため、あるいはあなたが書いたすべてのプロパティをきれいに整理するためにのみ存在します。よくあるのは、一時的に無効にしたいプロパティを削除せずにコメントしておくことで、ゲームはその内容を読みません。
+まず第一に、//の前にあるものはゲームでは読まれず、 **コメント** と名付けられます\(例://whitelisted\_weapon\)。コメントは、あなたが行ったことを他の人に理解してもらうため、あるいはあなたが書いたすべてのプロパティをきれいに整理するためにのみ存在します。よくあるのは、一時的に無効にしたいプロパティを削除せずにコメントしておくことで、ゲームはその内容を読みません。
 
-First of all, anything preceded by `//` is not read by the game and is named a **comment**. It is there only to help other people understand what you've done, or to neatly organize all the properties you've written. A common practice is to **comment** properties you want to temporarily disable without deleting them, as the game will not read the contents.
+First of all, anything preceded by `//` is not read by the game and is named a **comment**. It is there only to help other people understand what you've done, or to neatly organize all the properties you've written. A common practice is to **comment** properties you want to temporarily disable without deleting them, as the game will not read the contents.  
 
 ```text
 max_teams 2
