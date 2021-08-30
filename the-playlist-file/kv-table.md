@@ -6,7 +6,7 @@
 | :--- | :--- | :--- |
 | `min_players` | `int` | Minimum number of players required to start a match |
 | `max_players` | `int` | Maximum player limit |
-| `max_team_players` | `int` | Number of players in a team |
+| `max_team_players` | `int` | Maximum number of players in a team |
 | `match_ending_enabled` | `bool` | Champion screen |
 | `skydive_ziplines_enabled` | `bool` | Activating ziplines |
 | `survival_jumpkit_enabled` | `bool` | Double jump Mode |
