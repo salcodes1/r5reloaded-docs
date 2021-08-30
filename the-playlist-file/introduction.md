@@ -1,45 +1,51 @@
-# Introduction
+# R5reloadedの紹介
 
-## What is the playlist file?
+## プレイリストファイルとは
 
-The playlist file is a plain text file located in your game directory's `platform` folder. It manages:
+プレイリストファイルは、ゲームディレクトリのplatformフォルダ内にあるプレーンテキストファイルで管理しています。
 
-* Default game parameters \(e.g. `match_ending_enabled`\)
-* Gamemodes \(e.g. `custom_tdm`, `survival`\) and what maps these gamemodes can be played on
-* Gamemode parameters \(e.g. `default_shield_hp` for `custom_tdm`\)
+* デフォルトのパラメーター \(例. `match_ending_enabled`\)
+* ゲームモード \(例. `custom_tdm`, `survival`\) がどのようなマップでプレイできるのか。
+* ゲームモードのパラメーター \(例. `custom_tdm`に`default_shield_hp`\)
 
-Through the playlist file, you can customize any gamemode without knowing how to code.
+プレイリストファイルを使えば、コードが分からなくても、どんなゲームモードでもカスタマイズできます。
 
-## How do I modify the playlist file?
+## プレイリストファイルを改変するには
 
-Simply open the file with any text/code editor.
+テキストエディタ、コードエディタでファイルを開くだけです。
 
-### Structure
+### プレイリストファイルの構成
 
-In the playlist file, there's the gamemodes, and there's the playlists. Gamemodes are defined in the `Gamemodes` block, while playlists are defined in the `Playlists` block. At the bottom of the file, you will also find `KVFileOverrides`.
+プレイリストファイルには、ゲームモードとプレイリストがあります。ゲームモードは`Gamemodes`ブロック、プレイリストは`Playlists`ブロックで定義されています。また、ファイルの下部には`KVFileOverrides`があります。
 
 {% hint style="warning" %}
-Playlists and gamemodes can share the same name \(e.g. `custom_tdm`\)! You can differentiate them by looking in which block they're defined.
+プレイリストとゲームモードは同じ名前を使うことができます\(例：custom\_tdm\)。どのブロックで定義されているかで見分けることができます。
 {% endhint %}
 
-#### Gamemodes block
+#### `Gamemodes`について
 
-Gamemodes are **bases** which the playlists **build upon**. You do not typically need to modify anything in this block. Currently, we have as base gamemodes:
+ゲームモードは、プレイリストのベースとなるものです。このブロックでは通常、何も変更する必要はありません。
 
-* `survival`: standard Apex Battle Royale experience
-* `custom_tdm`:despite its name, it's a variable-team deathmatch experience with respawns
+現在、ベースとなるゲームモードは次のとおりです。 survival：標準的なApex Battle Royaleを体験できます。 custom\_tdm:その名の通り、リスポーンのある可変チームデスマッチです。 プレイリストブロック ここでは、ゲームモードの動作を変更するためのプレイリストを定義することができます。このセクションについては、後ほど詳しく説明します。
 
-#### Playlists block
+ゲームモードは、プレイリストのベースとなるものです。このブロックでは通常、何も変更する必要はありません。現在、ベースとなるゲームモードは次のとおりです。 
 
-This is where you can define playlists in order to modify the behavior of the gamemodes. We will talk about this section more in just a bit.
+`survival`:標準的なバトルロイヤル
+
+* `survival`: 標準的なバトルロイヤルです。
+* `custom_tdm`:その名の通り、リスポーンのあるチームデスマッチです。
+
+#### `Playlists`について
+
+ここでは、ゲームモードの動作を変更するためのプレイリストを定義することができます。このセクションについては、後ほど詳しく説明します。
 
 {% hint style="info" %}
-Multiple playlists can have the same base gamemode.
+複数のプレイリストが同じゲームモードを持つことができます。
 {% endhint %}
 
-#### KVFileOverrides block
+#### `KVFileOverrides`について
 
-This is where you can modify weapon values, such as damage, ammo count etc. You can read more about how to modify weapon properties in the Weapons section.
+ここでは、ダメージや弾薬の数など、武器の値を変更することができます。武器のプロパティを変更する方法については、「武器」のセクションで詳しく説明しています。
 
 {% hint style="danger" %}
 We urge you to use this method instead of modifying the files `scripts/weapons/*` , as the changes are broadcasted to every player connected to you, so no weird issues arise using this method. This way, no desync issues/weird bugs will arise.

@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [R5reloadedドキュメントへようこそ](README.md)
 
-## The playlist file
+## プレイリストファイルについて <a id="the-playlist-file"></a>
 
-* [Introduction](the-playlist-file/introduction.md)
+* [R5reloadedの紹介](the-playlist-file/introduction.md)
 * [KV Table](the-playlist-file/kv-table.md)
 
 ## Coding Modifications
