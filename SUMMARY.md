@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Witaj!](README.md)
 * [FAQ](faq.md)
 * [Links](links.md)
 
