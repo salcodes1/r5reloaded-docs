@@ -1,4 +1,4 @@
-# Black screen in the Main Menu
+# 主界面黑屏
 
 If you screen stays black but you can hear the music in the background and you can hear your cursor react with UI elements, it's most likely because you are playing on a stretched resolution.
 

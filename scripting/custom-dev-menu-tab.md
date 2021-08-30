@@ -1,4 +1,4 @@
-# Custom Dev Menu Tab \(UNSAFE\)
+# 自定义开发者菜单 \(不推荐\)
 
 {% hint style="danger" %}
 We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary security risks! Instead, refer to the page on how to add a custom menu altogether.

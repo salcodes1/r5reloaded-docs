@@ -1,4 +1,4 @@
-# Could not load bank digest file audio\ship\general.mbnk\_digest
+# 无法加载音频文件audio\ship\general.mbnk\_digest
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 

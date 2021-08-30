@@ -1,4 +1,4 @@
-# DEV menu refuses to show up
+# 无法打开开发者菜单
 
 If you are trying to enable the DEV menu for yourself but it still won't show up no matter what you do, it might be because the path to your game is too long.
 

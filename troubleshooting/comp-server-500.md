@@ -1,4 +1,4 @@
-# Failed to reach comp-server
+# Failed to reach comp-server（无法访问服务器）
 
 If you are trying to broadcast a server to the server browser yourself but you get `Failed to reach comp-server xxx` here are some of the solutions we have right now:
 

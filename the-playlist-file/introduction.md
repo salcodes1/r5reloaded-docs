@@ -1,20 +1,20 @@
-# Introduction
+# playlist文件介绍
 
-## What is the playlist file?
+## 什么是playlist文件?
 
-The playlist file is a plain text file located in your game directory's `platform` folder. It manages:
+playlist文件是位于 `platform` 文件夹中的纯文本文件。它管理以下功能:
 
-* Default game parameters \(e.g. `match_ending_enabled`\)
-* Gamemodes \(e.g. `custom_tdm`, `survival`\) and what maps these gamemodes can be played on
-* Gamemode parameters \(e.g. `default_shield_hp` for `custom_tdm`\)
+* 默认游戏参数 \(例如 `match_ending_enabled`\)
+* 游戏模式 \(例如 `custom_tdm`, `survival`\) ，并决定了相关模式的可用地图
+* 游戏模式的参数 \(例如在 `custom_tdm` 中的 `default_shield_hp` \)
 
-Through the playlist file, you can customize any gamemode without needing to know how to code.
+通过playlist文件，你可以自定义任何已存在的游戏模式，而无需知道如何去实现它们。
 
-## How do I modify the playlist file?
+## 如何修改playlist文件？
 
-Simply open the file with any text/code editor.
+只需使用任何文本/代码编辑器来打开文件。
 
-### Structure
+### 文件结构
 
 In the playlist file, there's the gamemodes, and there's the playlists. Gamemodes are defined in the `Gamemodes` block, while playlists are defined in the `Playlists` block. At the bottom of the file, you will also find `KVFileOverrides`.
 
@@ -22,22 +22,22 @@ In the playlist file, there's the gamemodes, and there's the playlists. Gamemode
 Playlists and gamemodes can share the same name \(e.g. `custom_tdm`\)! You can differentiate them by looking in which block they're defined.
 {% endhint %}
 
-#### Gamemodes block
+#### 游戏模式部分
 
 Gamemodes are **bases** which the playlists **build upon**. You do not typically need to modify anything in this block. Currently, we have as base gamemodes:
 
 * `survival`: standard Apex Battle Royale experience
 * `custom_tdm`:despite its name, it's a variable-team deathmatch experience with respawns
 
-#### Playlists block
+#### Playlists部分
 
-This is where you can define playlists in order to modify the behavior of the gamemodes. We will talk about this section more in just a bit.
+在这里，您可以定义playlist来修改游戏模式的行为。稍后我们将进一步讨论这一部分。.
 
 {% hint style="info" %}
-Multiple playlists can have the same base gamemode.
+多个playlists可以拥有相同的基础游戏模式。
 {% endhint %}
 
-#### KVFileOverrides block
+#### KVFileOverrides（关键数据覆盖）部分
 
 This is where you can modify weapon values, such as damage, ammo count etc. You can read more about how to modify weapon properties in the Weapons section.
 
@@ -103,7 +103,7 @@ KV's support multiple value **types**:
 | `float` | Rational numbers | `3.14` |
 | `string` | Plain text  **Must be surrounded by** `"` | `"mp_weapon_mastiff"` |
 
-## Practical Example
+## 实际样例
 
 Team Deathmatch is nice and all, but, because of the flexibility of the playlist file, we can make it into a Free For All without any code changes, with the following properties changed:
 
@@ -119,7 +119,7 @@ Notice that we use a new KV called `max_team_players`. This will make it so the 
 Make sure `max_players` isn't greater than `max_teams` though, because the game will not have enough teams to assign the players to!
 {% endhint %}
 
-## I want more!
+## 我需要更多相关知识!
 
-Continue to the next section, where you can read about all of the KVs you can modify.
+继续下一节，在这里您可以了解到所有可以修改的关键数据\(KVs\)。
 

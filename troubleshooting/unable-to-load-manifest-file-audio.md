@@ -1,4 +1,4 @@
-# Unable to load manifest file scripts\audio\audio\_soundscapes\_manifest.txt
+# 无法加载清单文件scripts\audio\audio\_soundscapes\_manifest.txt
 
 ![](../.gitbook/assets/image%20%286%29.png)
 

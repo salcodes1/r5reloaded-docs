@@ -1,67 +1,69 @@
 ---
-description: Frequently Asked Questions
+description: 常见问题解答
 ---
 
-# FAQ
+# 常见问题
 
-## Can I play on Console?
+## 我可以在主机上面游玩吗？
 
-No, this project is PC only. You can't invite your console friends and can't play on console.
+不可以，此项目仅限于电脑平台。您不能邀请主机平台的好友，也不能在主机平台上游玩。
 
-## Can I use in-game cosmetics?
+## 我可以在游戏中使用皮肤/挂饰吗？
 
-No, in-game cosmetics are disabled and will stay disabled. If you want to have In-game cosmetics, buy them in the actual game.
+不可以，皮肤/挂饰是禁用的，并且将永远保持禁用状态。如果你想在APEX中使用皮肤/挂饰，请在APEX官方游戏中购买。
 
 {% hint style="danger" %}
-**We urge you to not attempt enabling cosmetics as this can put the whole project at risk! The development would cease and files wouldn't be accessible anymore.**
+我们敦促您不要尝试启用皮肤/挂饰，因为这可能会使整个项目陷入风险之中！相关的开发活动将会停止，有关文件将不再公开。
 {% endhint %}
 
-## Can I use my Season 10 Apex files?
+## 我可以在第十赛季的APEX中使用启动器吗？
 
-**Under absolutely no circumstances should you attempt to run th**i**s** **with Season 10 Apex files**.
+**在任何情况下，你都不应该试图在第十赛季的APEX中运行启动器。**
 
-Doing this won't work as Easy Anti-Cheat will block it or may even **ban** you! You need to download the Season 3 Apex build files with the build string `R5pc_r5launch_N1094_CL456479_2019_10_30_05_20_PM`.
+启动器将不会起任何作用：因为EAC反作弊会阻止其运行，甚至可能**封禁**你的游戏账号！你应该下载第三赛季的APEX残端版本。
 
-## What can I do with this project?
+如果你使用外国网盘下载的话，它的文件名应该是这样的：`R5pc_r5launch_N1094_CL456479_2019_10_30_05_20_PM`
 
-You can create your own lobbies, you can play with your friends and other people. We also have a Server Browser so you can find other servers.
+## 我可以用这个项目做什么？
 
-## How do you properly host servers?
+你可以创建自己的本地服务器，你可以和你的朋友、和其他人一起玩。我们还有一个服务器列表，以便您找到其他的服务器。
 
-You need to port-forward from port range **37015-37020** on **UDP** otherwise no one will be able to connect. If you host to the Server Browser and don't have those ports forwarded no one can join you. Same for hosting hidden servers. Please keep that in mind. 
+## 如何建立主机服务器？
+
+你需要使用**UDP**转发**37015-37020**的端口，否则其他玩家无法加入你的服务器。即便是私人服务器也是如此，请记住这一点。
 
 {% hint style="info" %}
-You can still play offline and your friends can join you if you're all on the same network.
+如果你们处于同一网络中（即局域网），你仍然可以离线游玩，你的朋友也可以加入服务器之中。
 {% endhint %}
 
-## I'm stuck on the main menu. What should I do?
+## 在进入主菜单之后，我应该做什么？
 
-When in-game press `~` or insert key to open the console, `F10`to open the Server Browser.
+在游戏中按下 `~` 或者 `insert` 键来打开游戏控制台，或者按下 `F10` 来打开服务器列表。
 
-## My game isn't working. How do I fix it?
+## 游戏出问题了，我应该怎样修复它?
 
-Check out the \#\#Troubleshooting page for common issues and their respective solution. If that doesn't fix your problem, head over to our discord for support.
+查看侧边栏的故障处理页面，了解常见问题及其相应的解决方案。如果这不能解决您的问题，请前往我们的Discord服务器寻求技术支持。
 
-## Why are some characters not available?
+## 为什么有些角色不能使用？
 
-We still need to fix/implement some of the legends as Respawn didn't ship all necessary code from them to work out-of-the-box.
+我们仍然需要通过修复手段来实装一些传奇英雄，因为重生（Respawn）没有提供所有必要的代码。
 
-## Can I play Solos/Duos/Quads/32v32/... ?
+## 我可以玩Solos/Duos/Quads/32v32...等游戏模式吗?
 
-Yes, that's up to you! Check The Playlist file category to learn how to modify team composition and much more!
+完全可以！你需要查看Playlist文件中的代码来学习如何修改团队设置以及其他游戏设置！
 
-## Can I play on maps newer than S3?
+## 我可以游玩在S3之后新出的地图吗?
 
-For now, you can't. Here are all the available maps:
+现在不可以，下面是所有可用的地图：
 
-* Firing Range
-* Kings Canyon Season 0
-* Kings Canyon Season 2
-* Kings Canyon After Dark
-* World's Edge
-* **NEW**! World's Edge After Dark
+* 靶场
+* S0 王者峡谷
+* S2 王者峡谷
+* 暗夜王者峡谷
+* 世界边缘
+* **新地图**! 暗夜世界边缘
 
-## Is there any ban risk?
+## 有游戏账号被封禁的风险吗?
 
 We don't have a definitive answer but our project doesn't interfere with the Apex official servers aside from using your Origin account to retrieve the in-game name. Proceed at your own risk.
 
@@ -73,17 +75,17 @@ We suggest not using your main account for this. You need an origin account with
 When creating an alternate account don't use disposable emails. EA will autoban it based on the email domain. Use something _legit_ such as Gmail, Yahoo, Hotmail etc.
 {% endhint %}
 
-## Are there any bugs?
+## 会有游戏Bug吗?
 
-**YES**, there are lots of bugs. Bare with us though, as we fix them daily. To follow our progress on features/bugs, check out our [Trello ](https://trello.com/b/ymr4R3j9/r5reloaded)page
+**是的**，有很多游戏Bug。尽管我们每天都在修复它们，但Bug还是层出不穷。如果想要了解我们在功能/Bug方面的进展，请查看我们的 [工作清单](https://trello.com/b/ymr4R3j9/r5reloaded)。
 
-## Can I contribute?
+## 我能做些什么吗?
 
-Sure thing! 
+这当然可以！
 
-Please open pull requests and issues on our GitHub projects. We appreciate all the help! Additionally, you can contribute to this very documentation by submitting pull requests.
+请打开我们GitHub的项目页面来提交请求和问题，我们诚心感谢所有人对此项目的帮助！此外，您还可以通过提交拉请求来为这个文档做出贡献。
 
-Check out all of our repos on the Links page.
+在相关链接页面上查看我们所有的项目仓库。
 
 {% page-ref page="links.md" %}
 

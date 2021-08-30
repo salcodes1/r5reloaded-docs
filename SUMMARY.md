@@ -1,37 +1,37 @@
 # Table of contents
 
-* [Welcome](README.md)
-* [FAQ](faq.md)
-* [Links](links.md)
+* [主页](README.md)
+* [常见问题](faq.md)
+* [相关链接](links.md)
 
-## The playlist file
+## 关于playlist文件 <a id="the-playlist-file"></a>
 
-* [Introduction](the-playlist-file/introduction.md)
-* [KV Table](the-playlist-file/kv-table.md)
+* [playlist文件介绍](the-playlist-file/introduction.md)
+* [关键数据\(KV\)表](the-playlist-file/kv-table.md)
 
-## Helpful Commands
+## 关于命令 <a id="helpful-commands"></a>
 
-* [Copy Paste Commands](helpful-commands/copy-paste-commands.md)
-* [List of what things are called in the files](helpful-commands/list-of-what-things-are-called-in-the-files.md)
+* [常用命令](helpful-commands/copy-paste-commands.md)
+* [文件中调用的命令列表](helpful-commands/list-of-what-things-are-called-in-the-files.md)
 
-## Scripting
+## 脚本 <a id="scripting"></a>
 
-* [Introduction](scripting/introduction-1.md)
-* [Custom Dev Menu Tab \(UNSAFE\)](scripting/custom-dev-menu-tab.md)
+* [介绍](scripting/introduction-1.md)
+* [自定义开发者菜单 \(不推荐\)](scripting/custom-dev-menu-tab.md)
 
-## Troubleshooting
+## 故障处理 <a id="troubleshooting"></a>
 
-* [Could not load bank digest file audio\ship\general.mbnk\_digest](troubleshooting/could-not-load-bank-digest-file.md)
-* [0xc0000142 Application error](troubleshooting/0xc0000142.md)
-* [Unable to load manifest file scripts\audio\audio\_soundscapes\_manifest.txt](troubleshooting/unable-to-load-manifest-file-audio.md)
-* [Black screen in the Main Menu](troubleshooting/main-menu-black-screen.md)
-* [GRXStoreOffer script error](troubleshooting/grxstoreoffer.md)
-* [Failed to reach comp-server](troubleshooting/comp-server-500.md)
-* [The game refuses to open](troubleshooting/the-game-refuses-to-open.md)
-* [CommonShootWithLos](troubleshooting/commonshootwithlos.md)
-* [DEV menu refuses to show up](troubleshooting/dev-menu-doesnt-show-up.md)
+* [无法加载音频文件audio\ship\general.mbnk\_digest](troubleshooting/could-not-load-bank-digest-file.md)
+* [应用错误\(0xc0000142\)](troubleshooting/0xc0000142.md)
+* [无法加载清单文件scripts\audio\audio\_soundscapes\_manifest.txt](troubleshooting/unable-to-load-manifest-file-audio.md)
+* [主界面黑屏](troubleshooting/main-menu-black-screen.md)
+* [GRXStoreOffer脚本错误](troubleshooting/grxstoreoffer.md)
+* [Failed to reach comp-server（无法访问服务器）](troubleshooting/comp-server-500.md)
+* [无法启动游戏](troubleshooting/the-game-refuses-to-open.md)
+* [CommonShootWithLos引擎错误](troubleshooting/commonshootwithlos.md)
+* [无法打开开发者菜单](troubleshooting/dev-menu-doesnt-show-up.md)
 
 ---
 
-* [Respawn Squirrel Reference](https://r5reloaded.gitbook.io/respawn-squirrel-reference/)
+* [重生松鼠\(Squirrel\) 脚本语言参考](https://r5reloaded.gitbook.io/respawn-squirrel-reference/)
 

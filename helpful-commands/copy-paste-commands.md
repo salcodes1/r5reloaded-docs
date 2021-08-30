@@ -1,6 +1,6 @@
-# Copy Paste Commands
+# 常用命令
 
-**Legends Lock**
+**传奇英雄**
 
 ```text
 character_dummie                      hide
@@ -18,7 +18,7 @@ character_Wraith                      lock
 character_random                      lock
 ```
 
-**Give Weapons Commands**
+**获得武器的命令**
 
 ```text
 give mp_weapon_alternator_smg = Alternator
@@ -47,7 +47,7 @@ give mp_weapon_doubletake = Triple Take
 give mp_weapon_wingman = Wingman
 ```
 
-**Give Weapons Commands \(Multiplayer\)**
+**多人模式获得武器的命令**
 
 ```text
 tgive mp_weapon_alternator_smg = Alternator
@@ -76,14 +76,14 @@ tgive mp_weapon_doubletake = Triple Take
 tgive mp_weapon_wingman = Wingman
 ```
 
-**Give Weapons with Attachments Commands**
+获得带有配件的武器的命令
 
 ```text
 With Cheats = give [weaponname] [attachments/mods]
 Without Cheats = tgive [primary/secondary/tactical/ultimate] [weaponname] [attachments/mods]; you can also type p instead of primary, s instead of secondary etc.
 ```
 
-**Give Helmet Commands**
+**获得头盔的命令**
 
 ```text
 script "Inventory_SetPlayerEquipment(gp()[0], \"helmet_pickup_lv1\", \"helmet\")"
@@ -92,7 +92,7 @@ script "Inventory_SetPlayerEquipment(gp()[0], \"helmet_pickup_lv3\", \"helmet\")
 script "Inventory_SetPlayerEquipment(gp()[0], \"helmet_pickup_lv4_abilities\", \"helmet\")"
 ```
 
-**Give Backpack Commands**
+**获得背包的命令**
 
 ```text
 script "Inventory_SetPlayerEquipment(gp()[0], \"backpack_pickup_lv1\", \"backpack\")"
@@ -101,7 +101,7 @@ script "Inventory_SetPlayerEquipment(gp()[0], \"backpack_pickup_lv3\", \"backpac
 script "Inventory_SetPlayerEquipment(gp()[0], \"backpack_pickup_lv4_revive_boost\", \"backpack\")"
 ```
 
-**Give Armor / Shield Commands**
+**获得护甲\护盾的命令**
 
 ```text
 script "Inventory_SetPlayerEquipment(gp()[0], \"armor_pickup_lv1\", \"armor\")"
@@ -110,7 +110,7 @@ script "Inventory_SetPlayerEquipment(gp()[0], \"armor_pickup_lv3\", \"armor\")"
 script "Inventory_SetPlayerEquipment(gp()[0], \"armor_pickup_lv4_all_fast\", \"armor\")"
 ```
 
-**Give Incapshield / Knockdown Shields Commands**
+**获得Incapshield \击倒护盾的命令**
 
 ```text
 script "Inventory_SetPlayerEquipment(gp()[0], \"incapshield_pickup_lv1\", \"incapshield\")"

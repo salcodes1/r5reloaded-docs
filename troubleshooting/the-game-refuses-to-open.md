@@ -1,4 +1,4 @@
-# The game refuses to open
+# 无法启动游戏
 
 If you installed everything correctly but the game never opens \(for example, the command prompt freezes or shuts down instantly\), the steps here should help you.
 
