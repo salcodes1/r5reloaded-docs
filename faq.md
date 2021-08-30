@@ -6,11 +6,11 @@ description: Frequently Asked Questions
 
 ## Can I play on Console?
 
-No, it's PC only, you can't invite your console friends or can't play on console.
+No, this project is PC only. You can't invite your console friends and can't play on console.
 
-## Can I use in game cosmetics?
+## Can I use in-game cosmetics?
 
-No, in-game cosmetics disabled and will stay disabled. If you wanna have In-game cosmetics buy them in the actual game.
+No, in-game cosmetics are disabled and will stay disabled. If you want to have In-game cosmetics, buy them in the actual game.
 
 {% hint style="danger" %}
 **We urge you to not attempt enabling cosmetics as this can put the whole project at risk! The development would cease and files wouldn't be accessible anymore.**
@@ -20,11 +20,11 @@ No, in-game cosmetics disabled and will stay disabled. If you wanna have In-game
 
 **Under absolutely no circumstances should you attempt to run th**i**s** **with Season 10 Apex files**.
 
-Doing this won't work Easy Anti-Cheat will block it or may even **ban** you! You need to download the Season 3 Apex build files with the build string `R5pc_r5launch_N1094_CL456479_2019_10_30_05_20_PM`.
+Doing this won't work as Easy Anti-Cheat will block it or may even **ban** you! You need to download the Season 3 Apex build files with the build string `R5pc_r5launch_N1094_CL456479_2019_10_30_05_20_PM`.
 
 ## What can I do with this project?
 
-You can create your own lobbies, you can play with your friends and other people. We also have Server Browser so you can find other servers.
+You can create your own lobbies, you can play with your friends and other people. We also have a Server Browser so you can find other servers.
 
 ## How do you properly host servers?
 
@@ -44,7 +44,7 @@ Check out the \#\#Troubleshooting page for common issues and their respective so
 
 ## Why are some characters not available?
 
-We still need to fix/implement some of the legends as respawn didn't ship all necessary code from them to work out-of-the-box.
+We still need to fix/implement some of the legends as Respawn didn't ship all necessary code from them to work out-of-the-box.
 
 ## Can I play Solos/Duos/Quads/32v32/... ?
 
@@ -52,7 +52,7 @@ Yes, that's up to you! Check [The Playlist File](the-playlist-file/introduction.
 
 ## Can I play on maps newer than S3?
 
-For now, you can't. Here's all the available maps:
+For now, you can't. Here are all the available maps:
 
 * Firing Range
 * Kings Canyon Season 0
@@ -63,14 +63,14 @@ For now, you can't. Here's all the available maps:
 
 ## Is there any ban risk?
 
-We don't have a definitive answer but our project doesn't interfere with the apex official servers aside from using your origin account to retrieve the in-game name. Proceed at your own risk.
+We don't have a definitive answer but our project doesn't interfere with the Apex official servers aside from using your Origin account to retrieve the in-game name. Proceed at your own risk.
 
 {% hint style="warning" %}
 We suggest not using your main account for this. You need an origin account with Apex Legends in the library. We also suggest to turn off game auto-updating and use a VPN.
 {% endhint %}
 
 {% hint style="danger" %}
-When creating an alt account don't use disposable emails. EA will autoban it based on the email domain. Use something _legit_ such as Gmail, Yahoo, Hotmail etc.
+When creating an alternate account don't use disposable emails. EA will autoban it based on the email domain. Use something _legit_ such as Gmail, Yahoo, Hotmail etc.
 {% endhint %}
 
 
