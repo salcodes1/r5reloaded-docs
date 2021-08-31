@@ -94,20 +94,61 @@ max_teams 2
 
 上のコードでは、今後**KV**（`key-value`）またはPlaylistVarと呼ばれるものが出てきました。**Key**はプロパティ名（`max_teams`）で、値はそのプロパティの値（2）です。ゲームはこの**KV**を読み込んで、プレイヤーが2チームにしか分配されないようにするので、チームデスマッチには最適です。
 
-In the code above, you see what we'll refer to going forward as a **KV** \(key-value\) or **PlaylistVar**. The **key** is the property name \(`max_teams`\) and the value is, well, the value of said property \(`2`\). The game will read this **KV** and make it so the players only get distributed in 2 teams, which is perfect for a Team Deathmatch! 
+複数のキータイプに対応しています
 
-KV's support multiple value **types**:
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Type</th>
+      <th style="text-align:left">Explanation</th>
+      <th style="text-align:left">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>int</code>
+      </td>
+      <td style="text-align:left">&#x6570;&#x5024;</td>
+      <td style="text-align:left"><code>3</code>, <code>-41</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>bool</code>
+      </td>
+      <td style="text-align:left">0(&#x306A;&#x3057;)&#x304B;1(&#x3042;&#x308A;)&#x306E;&#x307F;&#x3067;&#x3059;
+        <br
+        />
+        <br />&#x901A;&#x5E38;&#x3001;replay_enabled&#x306A;&#x3069;&#x3001;2&#x3064;&#x306E;&#x5024;&#x3057;&#x304B;&#x306A;&#x3044;PlaylistVar&#x306B;&#x4F7F;&#x7528;&#x3055;
+        &#x308C;&#x307E;&#x3059;&#x3002;</td>
+      <td style="text-align:left"><code>0</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>float</code>
+      </td>
+      <td style="text-align:left">Rational numbers</td>
+      <td style="text-align:left"><code>3.14</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>string</code>
+      </td>
+      <td style="text-align:left">
+        <p>&#x6587;&#x5B57;&#x5217;
+          <br />
+        </p>
+        <p><em><b>&quot;&#x306B;&#x56F2;&#x307E;&#x308C;&#x3066;&#x3044;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</b></em>
+        </p>
+      </td>
+      <td style="text-align:left"><code>&quot;mp_weapon_mastiff&quot;</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-| Type | Explanation | Example |
-| :--- | :--- | :--- |
-| `int` | Integer | `3`, `-41` |
-| `bool` | Must be either `0` or `1`  Typically used for PlaylistVars with ****only 2 possible values, such as`replay_enabled` | `0` |
-| `float` | Rational numbers | `3.14` |
-| `string` | Plain text  **Must be surrounded by** `"` | `"mp_weapon_mastiff"` |
+## 例
 
-## Practical Example
-
-Team Deathmatch is nice and all, but, because of the flexibility of the playlist file, we can make it into a Free For All without any code changes, with the following properties changed:
+チームデスマッチもいいですが、プレイリストファイルには柔軟性があるので、コードを変更することなく、以下のプロパティを変更することで、自由参加\(free for all\)にすることができます。
 
 ```text
 max_teams                          64
@@ -115,13 +156,13 @@ max_players                        64
 max_team_players                   1
 ```
 
-Notice that we use a new KV called `max_team_players`. This will make it so the game is forced to leave only 1 player in each team. 
+`max_team_players`という新しいKVを使っていることに注目してください。これにより、ゲームでは各チームに1人のプレーヤーしか残らないようにすることができます。
 
 {% hint style="warning" %}
-Make sure `max_players` isn't greater than `max_teams` though, because the game will not have enough teams to assign the players to!
+ただし、`max_players`が`max_teams`以上にならないようにしてください。
 {% endhint %}
 
-## I want more!
+## もっと知りたい場合
 
-Continue to the next section, where you can read about all of the KVs you can modify.
+次のセクションに進むと、変更可能なすべてのKVについて説明しています。
 
