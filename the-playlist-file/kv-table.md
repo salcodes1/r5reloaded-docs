@@ -68,7 +68,7 @@
       <td style="text-align:left"><code>float</code>
       </td>
       <td style="text-align:left">
-        <p>&#x5982;&#x679C;&#x73A9;&#x5BB6;&#x8D70;&#x51FA;&#x5305;&#x56F4;&#x7740;&#x6E38;&#x620F;&#x533A;&#x57DF;&#x7684;&#x8FB9;&#x754C;&#xFF0C;&#x4F1A;&#x81EA;&#x52A8;&#x5BF9;&#x73A9;&#x5BB6;&#x9020;&#x6210;&#x7684;&#x4F24;&#x5BB3;&#xFF1A;</p>
+        <p>&#x5982;&#x679C;&#x73A9;&#x5BB6;&#x8D70;&#x51FA;&#x5305;&#x56F4;&#x7740;&#x6E38;&#x620F;&#x533A;&#x57DF;&#x7684;&#x8FB9;&#x754C;&#xFF0C;&#x4F1A;&#x81EA;&#x52A8;&#x5BF9;&#x73A9;&#x5BB6;&#x9020;&#x6210;&#x76F8;&#x5E94;&#x7684;&#x7684;&#x767E;&#x5206;&#x6BD4;&#x4F24;&#x5BB3;&#xFF1A;</p>
         <p>&#x4F8B;&#x5982;&#x8BBE;&#x4E3A; <code>25</code> &#x4F1A;&#x5BF9;&#x6700;&#x5927;&#x751F;&#x547D;&#x503C;&#x4E3A;100&#x7684;&#x73A9;&#x5BB6;&#x9020;&#x6210;25&#x70B9;&#x751F;&#x547D;&#x4F24;&#x5BB3;</p>
       </td>
     </tr>
