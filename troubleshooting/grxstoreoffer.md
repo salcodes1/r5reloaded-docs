@@ -12,5 +12,5 @@ Double check if you made a typo, if the folder isn't called `scripts`it won't wo
 
 ![If your path and the contents of the scripts folder look similar it should be good!](../.gitbook/assets/image%20%289%29.png)
 
-If for some reason it still doesn't work, visit our [Discord](https://discord.gg/R5Reloaded).
+如果由于其他原因导致它仍然不能正常运行，请前往我们的 [Discord](https://discord.gg/R5Reloaded) 服务器寻求帮助！
 

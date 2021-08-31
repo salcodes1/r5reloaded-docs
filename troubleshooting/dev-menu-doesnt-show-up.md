@@ -10,5 +10,5 @@ This also fixes any problems you would have with your loading config files.
 
 The dev menu should now appear in the `ESC` menu as long as you have launched the dev build.
 
-As always, if you need more help visit our [Discord](https://discord.gg/R5Reloaded).
+正如前面反复强调的：如果您仍然有问题，随时欢迎来到我们的 [Discord](https://discord.gg/R5Reloaded) 服务器寻求我们的帮助。
 

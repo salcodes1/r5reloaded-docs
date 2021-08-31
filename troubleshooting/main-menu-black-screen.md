@@ -6,5 +6,5 @@ You can directly change your apex settings in your videoconfig file, which you c
 
 Pressing \`alt+enter\` when the game loaded into the main menu should switch between windowed and fullscreen as well.
 
-If you need more help, feel free to ask us in our [Discord](https://discord.gg/R5Reloaded).
+如果您需要更多帮助，随时欢迎来到我们的 [Discord](https://discord.gg/R5Reloaded) 服务器寻求我们的帮助。
 

@@ -68,11 +68,11 @@ description: 常见问题解答
 We don't have a definitive answer but our project doesn't interfere with the Apex official servers aside from using your Origin account to retrieve the in-game name. Proceed at your own risk.
 
 {% hint style="warning" %}
-We suggest not using your main account for this. You need an origin account with Apex Legends in the library. We also suggest to turn off game auto-updating and use a VPN.
+我们建议不要为此使用您的主帐户,使用在库中带有Apex Legends游戏的origin账户替代。此外，我们还建议关闭游戏的自动更新并使用VPN代理。
 {% endhint %}
 
 {% hint style="danger" %}
-When creating an alternate account don't use disposable emails. EA will autoban it based on the email domain. Use something _legit_ such as Gmail, Yahoo, Hotmail etc.
+创建备用帐户时，不要使用一次性的电子邮箱，EA将基于电子邮件域自动扫描。使用合法的邮箱，如Gmail、雅虎、Hotmail等。
 {% endhint %}
 
 ## 会有游戏Bug吗?

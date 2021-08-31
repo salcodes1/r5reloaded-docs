@@ -2,10 +2,10 @@
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
-In this case, the audio folder is missing or was corrupted. You can check if the file even exists, but most likely it won't.
+面对这种情况，游戏对应的音频文件夹可能已经丢失或已损坏。您可以检查该文件是否存在，但很有可能不存在了。
 
-Try extracting the build again in the same place as your game directory and replace every file. If this problem still persists you should redownload the season 3 build with another method, to make sure nothing else is corrupted.
+尝试在与游戏目录相同的位置重新释放文件，并且覆盖替换每个文件。如果这个问题仍然存在，你应该用另一种方法重新下载APEX S3版本的游戏，以确保没有其他文件损坏。
 
-If you are still having problems, feel free to ask us in our [Discord](https://discord.gg/R5Reloaded).  
+如果您仍然有问题，随时欢迎来到我们的 [Discord](https://discord.gg/R5Reloaded) 服务器寻求我们的帮助。  
 
 

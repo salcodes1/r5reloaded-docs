@@ -1,7 +1,7 @@
 # 自定义开发者菜单 \(不推荐\)
 
 {% hint style="danger" %}
-We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary security risks! Instead, refer to the page on how to add a custom menu altogether.
+我们**不鼓励**在开发模式下搭建主机服务器。它引入了不必要的安全风险！与此相反，请参阅有关如何添加自定义菜单的页面。
 {% endhint %}
 
 1: you start by going into `\platform\scripts\vscripts\ai\sh_dev_npc_settings.gnut`and adds in the top a new global function `Type global function <Setup<something>` \(Example: global function SetupCustomThings\)
