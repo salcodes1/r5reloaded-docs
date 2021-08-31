@@ -94,6 +94,8 @@ First of all, anything preceded by `//` is not read by the game and is named a *
 max_teams 2
 ```
 
+上のコードでは、今後KV（key-value）またはPlaylistVarと呼ばれるものが出てきました。キーはプロパティ名（max\_teams）で、値はそのプロパティの値（2）です。ゲームはこのKVを読み込んで、プレイヤーが2チームにしか分配されないようにするので、チームデスマッチには最適です。
+
 In the code above, you see what we'll refer to going forward as a **KV** \(key-value\) or **PlaylistVar**. The **key** is the property name \(`max_teams`\) and the value is, well, the value of said property \(`2`\). The game will read this **KV** and make it so the players only get distributed in 2 teams, which is perfect for a Team Deathmatch! 
 
 KV's support multiple value **types**:
