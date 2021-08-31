@@ -1,6 +1,6 @@
 # Black screen in the Main Menu
 
-If you screen stays black but you can hear the music in the background and you can hear your cursor react with UI elements, it's most likely because you are playing on a stretched resolution.
+If your screen stays black but you can hear the music in the background and you can hear your cursor react with UI elements, it's most likely because you are playing on a stretched resolution.
 
 You can directly change your apex settings in your videoconfig file, which you can find here:`C:\Users\YourName\Saved Games\Respawn\Apex\local\videoconfig.txt`
 
