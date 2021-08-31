@@ -6,7 +6,7 @@
 ## プレイリストファイルについて <a id="the-playlist-file"></a>
 
 * [R5reloadedの紹介](the-playlist-file/introduction.md)
-* [KV Table](the-playlist-file/kv-table.md)
+* [KV 一覧表](the-playlist-file/kv-table.md)
 
 ## Coding Modifications
 
