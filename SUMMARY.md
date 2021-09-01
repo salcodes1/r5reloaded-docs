@@ -23,15 +23,16 @@
 
 ## Troubleshooting
 
-* [Could not load bank digest file audio\ship\general.mbnk\_digest](troubleshooting/could-not-load-bank-digest-file.md)
-* [0xc0000142 Application error](troubleshooting/0xc0000142.md)
 * [Unable to load manifest file scripts\audio\audio\_soundscapes\_manifest.txt](troubleshooting/unable-to-load-manifest-file-audio.md)
 * [Black screen in the Main Menu](troubleshooting/main-menu-black-screen.md)
 * [GRXStoreOffer script error](troubleshooting/grxstoreoffer.md)
 * [Failed to reach comp-server](troubleshooting/comp-server-500.md)
 * [The game refuses to open](troubleshooting/the-game-refuses-to-open.md)
 * [CommonShootWithLos](troubleshooting/commonshootwithlos.md)
+* [Error 0x00000026](troubleshooting/error-0x00000026.md)
 * [DEV menu refuses to show up](troubleshooting/dev-menu-doesnt-show-up.md)
+* [0xc0000142 Application error](troubleshooting/0xc0000142.md)
+* [Could not load bank digest file audio\ship\general.mbnk\_digest](troubleshooting/could-not-load-bank-digest-file.md)
 
 ---
 
