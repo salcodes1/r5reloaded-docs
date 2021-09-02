@@ -31,7 +31,7 @@
 * [Failed to reach comp-server（无法访问服务器）](troubleshooting/comp-server-500.md)
 * [无法启动游戏](troubleshooting/the-game-refuses-to-open.md)
 * [CommonShootWithLos引擎错误](troubleshooting/commonshootwithlos.md)
-* [Error 0x00000026](troubleshooting/error-0x00000026.md)
+* [引擎错误\(0x00000026\)](troubleshooting/error-0x00000026.md)
 * [无法打开开发者菜单](troubleshooting/dev-menu-doesnt-show-up.md)
 
 ---
