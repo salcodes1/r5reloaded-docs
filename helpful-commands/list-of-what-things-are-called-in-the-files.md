@@ -33,8 +33,8 @@ Caustic Tactical = mp_weapon_dirty_bomb
 Caustic Ultimate = mp_weapon_grenade_gas
 Crypto Tactical = mp_ability_crypto_drone
 Crypto Ultimate = mp_ability_crypto_drone_emp
-Gibraltar Passive = mp_weapon_bubble_bunker
 Gibraltar Passive = mp_ability_gibraltar_shield
+Gibraltar Tactical = mp_weapon_bubble_bunker
 Gibraltar Ultimate = mp_weapon_grenade_defensive_bombardment
 Lifeline Tactical = mp_weapon_deployable_medic
 Lifeline Ultimate = mp_ability_care_package
@@ -47,7 +47,7 @@ Pathfinder Ultimate = mp_weapon_zipline
 Wattson Tactical = mp_weapon_tesla_trap
 Wattson Ultimate = mp_weapon_trophy_defense_system
 Wraith Tactical = mp_ability_phase_walk
-Wraith Wraith = mp_weapon_phase_tunnel
+Wraith Ultimate = mp_weapon_phase_tunnel
 ```
 
 **Weapons**
