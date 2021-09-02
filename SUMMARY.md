@@ -17,6 +17,8 @@
 ## 脚本 <a id="scripting"></a>
 
 * [介绍](scripting/introduction-1.md)
+* [自定义团队死斗模式](scripting/custom_tdm/README.md)
+  * [自动给与玩家武器及能力](scripting/custom_tdm/auto-give-weapons-abilities-to-players.md)
 * [自定义开发者菜单 \(不推荐\)](scripting/custom-dev-menu-tab.md)
 
 ## 故障处理 <a id="troubleshooting"></a>
@@ -29,6 +31,8 @@
 * [Failed to reach comp-server（无法访问服务器）](troubleshooting/comp-server-500.md)
 * [无法启动游戏](troubleshooting/the-game-refuses-to-open.md)
 * [CommonShootWithLos引擎错误](troubleshooting/commonshootwithlos.md)
+* [Error 0x00000026](troubleshooting/error-0x00000026.md)
+* [0xc0000142 Application error](troubleshooting/0xc0000142-1.md)
 * [无法打开开发者菜单](troubleshooting/dev-menu-doesnt-show-up.md)
 
 ---
