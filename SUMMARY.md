@@ -4,9 +4,9 @@
 * [FAQ](faq.md)
 * [連結](links.md)
 
-## The playlist file
+## playlist檔案 <a id="the-playlist-file"></a>
 
-* [Introduction](the-playlist-file/introduction.md)
+* [介紹](the-playlist-file/introduction.md)
 * [KV Table](the-playlist-file/kv-table.md)
 
 ## Helpful Commands

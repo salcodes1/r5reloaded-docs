@@ -1,51 +1,51 @@
-# Introduction
+# 介紹
 
-## What is the playlist file?
+## 什麼是playlist呢?
 
-The playlist file is a plain text file located in your game directory's `platform` folder. It manages:
+playlist是一個純文字檔，位於遊戲的`platform` 資料夾。他負責管理:
 
-* Default game parameters \(e.g. `match_ending_enabled`\)
-* Gamemodes \(e.g. `custom_tdm`, `survival`\) and what maps these gamemodes can be played on
-* Gamemode parameters \(e.g. `default_shield_hp` for `custom_tdm`\)
+* 預設的遊戲參數\( 如決定遊戲是否會結束的`match_ending_enabled`\)
+* 遊戲模式\(如`custom_tdm`, `survival`\) 以及地圖
+* 遊戲參數 \(如`custom_tdm`模式中出生時甲的血量 `default_shield_hp`\)
 
-Through the playlist file, you can customize any gamemode without needing to know how to code.
+透過playlist檔案，不需要具備寫程式的基礎即可自訂義任何遊戲模式。
 
-## How do I modify the playlist file?
+## 如何修改playlist檔案?
 
-Simply open the file with any text/code editor.
+簡單，用任何的文字編輯器都可以。個人喜歡Notepad++，即使意外關機仍會保留檔案\(但需要手動儲存\)。
 
-### Structure
+### 結構
 
-In the playlist file, there's the gamemodes, and there's the playlists. Gamemodes are defined in the `Gamemodes` block, while playlists are defined in the `Playlists` block. At the bottom of the file, you will also find `KVFileOverrides`.
+在playlist檔案中，有`Gamemodes` 以及`Playlists`兩大區塊。遊戲模式定義在`Gamemodes`，而playlist定義在`Playlists` 區塊。 在最下面，還能發現 `KVFileOverrides`.
 
 {% hint style="warning" %}
-Playlists and gamemodes can share the same name \(e.g. `custom_tdm`\)! You can differentiate them by looking in which block they're defined.
+Playlists 以及遊戲模式\(Gamemodes\) 可以使用相同名稱\(如`custom_tdm`\)! 你可以透過他們在不同的區塊來分辨它們。
 {% endhint %}
 
-#### Gamemodes block
+#### 遊戲模式\(Gamemodes\)區塊
 
-Gamemodes are **bases** which the playlists **build upon**. You do not typically need to modify anything in this block. Currently, we have as base gamemodes:
+遊戲模式是playlist的基礎。通常來說，你不需要在這裡修改任何東西。目前，我們有這些遊戲模式:
 
-* `survival`: standard Apex Battle Royale experience
-* `custom_tdm`:despite its name, it's a variable-team deathmatch experience with respawns
+* `survival`: 標準的Apex大逃殺模式
+* `custom_tdm`:d顧名思義，是個可以重生、分為多個隊伍的死鬥模式。
 
-#### Playlists block
+#### Playlist 區塊
 
-This is where you can define playlists in order to modify the behavior of the gamemodes. We will talk about this section more in just a bit.
+這是你定義遊戲模式的行為的地方，聽不太懂沒關係，請容我繼續往下說明。
 
 {% hint style="info" %}
-Multiple playlists can have the same base gamemode.
+不同的playlist可以擁有相同的遊戲模式\(Gamemode\)
 {% endhint %}
 
-#### KVFileOverrides block
+#### KVFileOverrides 區塊
 
-This is where you can modify weapon values, such as damage, ammo count etc. You can read more about how to modify weapon properties in the Weapons section.
+這是你修改武器數值的地方，如傷害、彈匣容量等。之後會在武器修改的章節說明怎麼自定義。
 
 {% hint style="danger" %}
-We urge you to use this method instead of modifying the files `scripts/weapons/*` , as the changes are broadcasted to every player connected to you, so no weird issues arise using this method. This way, no desync issues/weird bugs will arise.
+我們建議用這裡來修改而不是去動 `scripts/weapons/*` 的檔案，因為這些數值更動必須傳到每個連線到你伺服器的客戶端，用這裡更動比較不會有不同步的問題。
 {% endhint %}
 
-####  Now, let's look at an example:
+####  來囉，以下是一個範例:
 
 ```yaml
 Playlists
@@ -84,28 +84,69 @@ Playlists
 
 ```
 
-The above is an excerpt from the `custom_tdm` **playlist** settings. You can find the full version in the file.
+以上是`custom_tdm` **playlist**設定中的一小部分，你可以在檔案中找到完整版本。
 
-First of all, anything preceded by `//` is not read by the game and is named a **comment**. It is there only to help other people understand what you've done, or to neatly organize all the properties you've written. A common practice is to **comment** properties you want to temporarily disable without deleting them, as the game will not read the contents.
+首先，有點程式語言基礎的人應該知道， `//` 是不會被遊戲讀取成要執行的程式的，稱為註解，用來讓陌生人能簡單讀懂你寫的是什麼意思，或是用來分類。一個必學技巧，可以透過在設定前面加上`//`來快速的暫時停用這項設定，不用刪除，方便許多。
 
 ```text
 max_teams 2
 ```
 
-In the code above, you see what we'll refer to going forward as a **KV** \(key-value\) or **PlaylistVar**. The **key** is the property name \(`max_teams`\) and the value is, well, the value of said property \(`2`\). The game will read this **KV** and make it so the players only get distributed in 2 teams, which is perfect for a Team Deathmatch! 
+上面的程式，我們稱之為關鍵字數值**KV** \(key-value\) 或 **PlaylistVar** 。  
+`max_teams`即為關鍵字，簡單理解為這項設定的名稱；而`2`就是該項設定的數值。  
+遊戲將會讀取這條關鍵字數值**KV**，如同它的名稱，將全部人分成最多兩隊，正好適合死鬥模式。  
 
-KV's support multiple value **types**:
 
-| Type | Explanation | Example |
-| :--- | :--- | :--- |
-| `int` | Integer | `3`, `-41` |
-| `bool` | Must be either `0` or `1`  Typically used for PlaylistVars with ****only 2 possible values, such as`replay_enabled` | `0` |
-| `float` | Rational numbers | `3.14` |
-| `string` | Plain text  **Must be surrounded by** `"` | `"mp_weapon_mastiff"` |
+數值有這幾種**資料型態**:
 
-## Practical Example
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">
+        <p>&#x8CC7;&#x6599;</p>
+        <p>&#x578B;&#x614B;</p>
+      </th>
+      <th style="text-align:left">&#x7C21;&#x4ECB;</th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>int</code>
+      </td>
+      <td style="text-align:left">&#x6574;&#x6578;</td>
+      <td style="text-align:left"><code>3</code>, <code>-41</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>bool</code>
+      </td>
+      <td style="text-align:left">&#x5FC5;&#x9808;&#x662F;<code>0</code> &#x6216; <code>1</code>
+      </td>
+      <td style="text-align:left"><code>0</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>float</code>
+      </td>
+      <td style="text-align:left">&#x6709;&#x7406;&#x6578;</td>
+      <td style="text-align:left"><code>3.14</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>string</code>
+      </td>
+      <td style="text-align:left">&#x7D14;&#x6587;&#x5B57;&#xFF0C;<b>&#x5FC5;&#x9808;&#x88AB;<code>&quot;&quot;</code>&#x5305;&#x4F4F;</b>
+      </td>
+      <td style="text-align:left"><code>&quot;mp_weapon_mastiff&quot;</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-Team Deathmatch is nice and all, but, because of the flexibility of the playlist file, we can make it into a Free For All without any code changes, with the following properties changed:
+## 實際範例
+
+有了playlist檔案，就可以自由的修改想要的配置。像這樣修改，團隊死鬥就變成了FFA，從所有玩家分成兩隊變成每個玩家都是自己solo。
 
 ```text
 max_teams                          64

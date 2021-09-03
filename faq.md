@@ -84,7 +84,7 @@ description: 各種被人問爛的問題
 
 ## 有任何的Bug嗎?
 
-**有，而且爆炸多。**雖然我們每天都在修復，但我們人力有限，你可以到官方DC來反饋Bug，或在[Trello](https://trello.com/b/ymr4R3j9/r5reloaded)
+**有，而且爆炸多。**雖然我們每天都在修復，但我們人力有限，你可以到官方DC來反饋Bug，或在[Trello](https://trello.com/b/ymr4R3j9/r5reloaded)追蹤。
 
 ## 我可以做出貢獻嗎??
 
