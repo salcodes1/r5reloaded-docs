@@ -92,7 +92,7 @@ Playlists
 max_teams 2
 ```
 
-上面的程式，我們稱之為關鍵字數值**KV** \(key-value\) 或 **PlaylistVar** 。  
+上面的程式，我們稱之為**關鍵字數值 \(KV,** key-value\) 或 **PlaylistVar** 。  
 `max_teams`即為關鍵字，簡單理解為這項設定的名稱；而`2`就是該項設定的數值。  
 遊戲將會讀取這條關鍵字數值**KV**，如同它的名稱，將全部人分成最多兩隊，正好適合死鬥模式。  
 
@@ -154,13 +154,13 @@ max_players                        64
 max_team_players                   1
 ```
 
-Notice that we use a new KV called `max_team_players`. This will make it so the game is forced to leave only 1 player in each team. 
+注意到我們使用了一個新的**關鍵字數值** `max_team_players`，這將強制一個隊伍只有一個人。
 
 {% hint style="warning" %}
-Make sure `max_players` isn't greater than `max_teams` though, because the game will not have enough teams to assign the players to!
+在每隊只有一人的情況下，確保 `max_players` 小於 `max_teams` ，否則遊戲將沒有足夠的隊伍分配給玩家。
 {% endhint %}
 
-## I want more!
+## 我想看更多!
 
-Continue to the next section, where you can read about all of the KVs you can modify.
+下一章節你可以看到所有能夠修改的**關鍵字數值。**
 
