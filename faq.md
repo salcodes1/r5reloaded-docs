@@ -1,89 +1,98 @@
 ---
-description: Frequently Asked Questions
+description: 各種被人問爛的問題
 ---
 
 # FAQ
 
-## Can I play on Console?
+## 可以在家機平台上遊玩嗎?
 
-No, this project is PC only. You can't invite your console friends and can't play on console.
+目前只能在電腦上遊玩\(Windows, Linux可能會支援\)。也就是說，你也沒辦法邀請主機平台的人進入遊戲。
 
-## Can I use in-game cosmetics?
+## 遊戲內的造型超帥，能用嗎?
 
-No, in-game cosmetics are disabled and will stay disabled. If you want to have In-game cosmetics, buy them in the actual game.
+不行，遊戲內任何造型不能使用（也不打算開放使用），想使用請到官方遊戲。
 
 {% hint style="danger" %}
-**We urge you to not attempt enabling cosmetics as this can put the whole project at risk! The development would cease and files wouldn't be accessible anymore.**
+**請不要嘗試啟用遊戲內造型，因為這樣可能對整個項目造成危險\(法律上的問題\)，甚至被迫中止!**
 {% endhint %}
 
-## Can I use my Season 10 Apex files?
+## **可以直接使用Season10的**檔案嗎?
 
-**Under absolutely no circumstances should you attempt to run th**i**s** **with Season 10 Apex files**.
+**絕對不行!絕對不行!絕對不行!\(重要的事情說三次\)**
 
-Doing this won't work as Easy Anti-Cheat will block it or may even **ban** you! You need to download the Season 3 Apex build files with the build string `R5pc_r5launch_N1094_CL456479_2019_10_30_05_20_PM`.
+這樣做不能正常使用，EAC\(Easy Anti-Cheat\)會阻擋你嘗試開啟甚至把你Ban掉!  
+你必須要使用S3的這個組建:`R5pc_r5launch_N1094_CL456479_2019_10_30_05_20_PM`.
 
-## What can I do with this project?
+## R5Reloaded可以做什麼?
 
-You can create your own lobbies, you can play with your friends and other people. We also have a Server Browser so you can find other servers.
+您可以自創一個伺服器，邀請朋友一起玩。按下F10也有一個伺服器列表，可以進入別人的伺服器。
 
-## How do you properly host servers?
+## 如何搭建一個伺服器?
 
-You need to port-forward from port range **37015-37020** on **UDP** otherwise no one will be able to connect. If you host to the Server Browser and don't have those ports forwarded no one can join you. Same for hosting hidden servers. Please keep that in mind. 
+你**必須**要在路由器設定端口轉發\(Port-forward\) **UDP 37015~37020 ，否則別人無法連線。\(不論是否為私人伺服器、有沒有在伺服器列表中\)**
 
 {% hint style="info" %}
-You can still play offline and your friends can join you if you're all on the same network.
+只要你們在同樣的局域網，就可以不用連線到網際網路，直接跟朋友一起打。
 {% endhint %}
 
-## I'm stuck on the main menu. What should I do?
+## 我卡在主頁面了?
 
-When in-game press `~` or insert key to open the console, `F10`to open the Server Browser.
+![&#x5361;&#x5728;&#x9019;&#x88E1;&#x662F;&#x6B63;&#x5E38;&#x7684;&#x5594;!](.gitbook/assets/image%20%2822%29.png)
 
-## My game isn't working. How do I fix it?
+按下`~`或是`insert`打開主控台\(Console\)，`F10`打開伺服器列表。
 
-Check out the \#\#Troubleshooting page for common issues and their respective solution. If that doesn't fix your problem, head over to our discord for support.
+![&#x5DE6;:&#x4E3B;&#x63A7;&#x53F0; \| &#x53F3;:&#x4F3A;&#x670D;&#x5668;&#x5217;&#x8868;](.gitbook/assets/image%20%2821%29.png)
 
-## Why are some characters not available?
+## 不! 我的遊戲罷工了!
 
-We still need to fix/implement some of the legends as Respawn didn't ship all necessary code from them to work out-of-the-box.
+**發問前請先仔細查看** `#問題排除` **頁面看看有沒有解決方法。**
 
-## Can I play Solos/Duos/Quads/32v32/... ?
+如果不能解決問題，請到Discord伺服器發問。
 
-Yes, that's up to you! Check The Playlist file category to learn how to modify team composition and much more!
+## 為什麼我不能選某些角色?
 
-## Can I play on maps newer than S3?
+我們還需要修復一些角色的Bug, 因為重生工作室並沒有將所有的程式完成讓我們能直接使用。
 
-For now, you can't. Here are all the available maps:
+## 我可以玩單人/雙排/30v30/死鬥之類的遊戲模式嗎 ?
 
-* Firing Range
-* Kings Canyon Season 0
-* Kings Canyon Season 2
-* Kings Canyon After Dark
-* World's Edge
-* **NEW**! World's Edge After Dark
+當然可以，一切由你決定! 學習一下如何編輯及使用**Playlist檔案**來創造屬於自己的模式吧!
 
-## Is there any ban risk?
+## 可以玩比S3更新的地圖嗎?
 
-We don't have a definitive answer but our project doesn't interfere with the Apex official servers aside from using your Origin account to retrieve the in-game name. Proceed at your own risk.
+不行\(現在不行\)，你可以玩
+
+* 靶場
+* 王者峽谷 Season 0
+* 王者峽谷 Season 2
+* 王者峽谷 After Dark
+* 世界邊緣
+* **NEW**! 世界邊緣 After Dark
+
+`After Dark就是夜晚版本的地圖`
+
+## 有被Ban的風險嗎?
+
+我們尚未有肯定的答案，但R5Reloaded並未與Apex官方伺服器建立任何連線，我們只使用Origin來取得您的名字。
 
 {% hint style="warning" %}
-We suggest not using your main account for this. You need an origin account with Apex Legends in the library. We also suggest to turn off game auto-updating and use a VPN.
+保險起見，我們建議不要使用主帳號來玩，且需要Origin有安裝Apex。更保險一點，使用VPN以及HWID修改器\(不是叫你開掛嘿\)。
 {% endhint %}
 
 {% hint style="danger" %}
-When creating an alternate account don't use disposable emails. EA will autoban it based on the email domain. Use something _legit_ such as Gmail, Yahoo, Hotmail etc.
+創建一個小帳時不要用拋棄式的電子信箱! EA會自動檢測電子信箱然後自動Ban，使用Gmail, Yahoo, Hotmail, QQ信箱\(如果你在內地\)這類比較可靠的電子信箱。
 {% endhint %}
 
-## Are there any bugs?
+## 有任何的Bug嗎?
 
-**YES**, there are lots of bugs. Bare with us though, as we fix them daily. To follow our progress on features/bugs, check out our [Trello ](https://trello.com/b/ymr4R3j9/r5reloaded)page
+**有，而且爆炸多。**雖然我們每天都在修復，但我們人力有限，你可以到官方DC來反饋Bug，或在[Trello](https://trello.com/b/ymr4R3j9/r5reloaded)
 
-## Can I contribute?
+## 我可以做出貢獻嗎??
 
-Sure thing! 
+那當然! 
 
-Please open pull requests and issues on our GitHub projects. We appreciate all the help! Additionally, you can contribute to this very documentation by submitting pull requests.
+請在我們的Github專案上開一個Pull request，我們非常歡迎您的協助! 另外，你也可以透過同樣的方式來貢獻這些文件。
 
-Check out all of our repos on the Links page.
+在連結的頁面可以找到我們所有的repo。
 
 {% page-ref page="links.md" %}
 

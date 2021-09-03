@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [主頁](README.md)
 * [FAQ](faq.md)
-* [Links](links.md)
+* [連結](links.md)
 
 ## The playlist file
 
