@@ -2,205 +2,205 @@
 description: Here can you find what all of the legends and weapons are called in the files
 ---
 
-# List of what things are called in the files
+# 檔案中這些東西的名稱
 
 
 
-**Legends**
+**角色**
 
 ```text
-Bangalore = settings/player/mp/pilot_survival_firesupport.rpak
-Bloodhound = settings/player/mp/pilot_survival_tracker.rpak
-Caustic = settings/player/mp/pilot_survival_gas.rpak
-Crypto = settings/player/mp/pilot_survival_crypto.rpak
-Gibraltar = settings/player/mp/pilot_survival_gunner.rpak
-Lifeline = settings/player/mp/pilot_survival_medic.rpak
-Mirage = settings/player/mp/pilot_survival_holopilot.rpak
-Octane = settings/player/mp/pilot_survival_stim.rpak
-Pathfinder = settings/player/mp/pilot_survival_grapple.rpak
-Wattson = settings/player/mp/pilot_survival_barricade.rpak
-Wraith = settings/player/mp/pilot_survival_closer.rpak
+邦加羅爾  = settings/player/mp/pilot_survival_firesupport.rpak
+尋血犬   = settings/player/mp/pilot_survival_tracker.rpak
+腐蝕     = settings/player/mp/pilot_survival_gas.rpak
+暗碼士   = settings/player/mp/pilot_survival_crypto.rpak
+直布羅陀  = settings/player/mp/pilot_survival_gunner.rpak
+生命線   = settings/player/mp/pilot_survival_medic.rpak
+幻象     = settings/player/mp/pilot_survival_holopilot.rpak
+辛烷     = settings/player/mp/pilot_survival_stim.rpak
+探路者   = settings/player/mp/pilot_survival_grapple.rpak
+華森     =  settings/player/mp/pilot_survival_barricade.rpak
+惡靈     = settings/player/mp/pilot_survival_closer.rpak
 ```
 
 **Abilities**
 
 ```text
-Bangalore Tactical = mp_weapon_grenade_bangalore
-Bangalore Ultimate = mp_weapon_grenade_creeping_bombardment
-Bloodhound Tactical = mp_ability_area_sonar_scan
-Bloodhound Ultimate = mp_ability_hunt_mode
-Caustic Tactical = mp_weapon_dirty_bomb
-Caustic Ultimate = mp_weapon_grenade_gas
-Crypto Tactical = mp_ability_crypto_drone
-Crypto Ultimate = mp_ability_crypto_drone_emp
-Gibraltar Passive = mp_ability_gibraltar_shield
-Gibraltar Tactical = mp_weapon_bubble_bunker
-Gibraltar Ultimate = mp_weapon_grenade_defensive_bombardment
-Lifeline Tactical = mp_weapon_deployable_medic
-Lifeline Ultimate = mp_ability_care_package
-Mirage Tactical = mp_ability_holopilot
-Mirage Ultimate = mp_ability_mirage_ultimate
-Octane Tactical = mp_ability_heal
-Octane Ultimate = mp_weapon_jump_pad
-Pathfinder Tactical = mp_ability_grapple
-Pathfinder Ultimate = mp_weapon_zipline
-Wattson Tactical = mp_weapon_tesla_trap
-Wattson Ultimate = mp_weapon_trophy_defense_system
-Wraith Tactical = mp_ability_phase_walk
-Wraith Ultimate = mp_weapon_phase_tunnel
+邦加羅爾 技能 = mp_weapon_grenade_bangalore
+邦加羅爾 大招 = mp_weapon_grenade_creeping_bombardment
+尋血犬   技能 = mp_ability_area_sonar_scan
+尋血犬   大招 = mp_ability_hunt_mode
+腐蝕     技能 = mp_weapon_dirty_bomb
+腐蝕     大招 = mp_weapon_grenade_gas
+暗碼士   技能 = mp_ability_crypto_drone
+暗碼士   大招 = mp_ability_crypto_drone_emp
+直布羅陀 技能 = mp_ability_gibraltar_shield
+直布羅陀 槍盾 = mp_weapon_bubble_bunker
+直布羅陀 大招 = mp_weapon_grenade_defensive_bombardment
+生命線   技能 = mp_weapon_deployable_medic
+生命線   大招 = mp_ability_care_package
+幻象     技能 = mp_ability_holopilot
+幻象     大招 = mp_ability_mirage_ultimate
+辛烷     技能 = mp_ability_heal
+辛烷     大招 = mp_weapon_jump_pad
+探路者   技能 = mp_ability_grapple
+探路者   大招 = mp_weapon_zipline
+華森     技能 = mp_weapon_tesla_trap
+華森     大招 = mp_weapon_trophy_defense_system
+惡靈     技能 = mp_ability_phase_walk
+惡靈     大招 = mp_weapon_phase_tunnel
 ```
 
-**Weapons**
+**武器**
 
 ```text
-Alternator = mp_weapon_alternator_smg
-Charge Rifle = mp_weapon_defender
-Devotion = mp_weapon_esaw
-EPG = mp_weapon_epg
-EVA8 = mp_weapon_shotgun
-Flatline = mp_weapon_vinson
-G7 = mp_weapon_g2
-Havoc = mp_weapon_energy_ar
-Hemlok = mp_weapon_hemlok
-Kraber = mp_weapon_sniper
-Longbow = mp_weapon_dmr
-Lstar = mp_weapon_lstar
-Mastiff = mp_weapon_mastiff
-Mozambique = mp_weapon_shotgun_pistol
-P2020 = mp_weapon_semipistol
-Peacekeeper = mp_weapon_energy_shotgun
-Prowler = mp_weapon_pdw
-R301 = mp_weapon_rspn101
-R99 = mp_weapon_r97
-RE45 = mp_weapon_autopistol
-Smart Pistol = mp_weapon_smart_pistol
-Spitfire = mp_weapon_lmg
-Triple Take = mp_weapon_doubletake
-Wingman = mp_weapon_wingman
+轉換者     = mp_weapon_alternator_smg
+電能步槍   = mp_weapon_defender
+專注輕機槍 = mp_weapon_esaw
+EPG       = mp_weapon_epg
+EVA-8     = mp_weapon_shotgun
+平行步槍   = mp_weapon_vinson
+G7斥侯    = mp_weapon_g2
+哈博克     = mp_weapon_energy_ar
+汗洛      = mp_weapon_hemlok
+克萊博     = mp_weapon_sniper
+長弓      = mp_weapon_dmr
+L-star    = mp_weapon_lstar
+獒犬霰彈槍 = mp_weapon_mastiff
+莫三比克   = mp_weapon_shotgun_pistol
+P2020     = mp_weapon_semipistol
+和平使者   = mp_weapon_energy_shotgun
+獵獸      = mp_weapon_pdw
+R-301     = mp_weapon_rspn101
+R-99     = mp_weapon_r97
+RE45      = mp_weapon_autopistol
+智慧手槍   = mp_weapon_smart_pistol
+噴火槍     = mp_weapon_lmg
+三重擊     = mp_weapon_doubletake
+小幫手    = mp_weapon_wingman
 ```
 
-**Grenades**
+**手榴彈**
 
 ```text
-Arc Star = mp_weapon_grenade_emp
-Frag = mp_weapon_frag_grenade
-Thermite = mp_weapon_thermite_grenade
+電弧星 = mp_weapon_grenade_emp
+手榴彈 = mp_weapon_frag_grenade
+鋁熱劑 = mp_weapon_thermite_grenade
 ```
 
-**Optics**
+**倍鏡**\(x後面數字代表倍數\)
 
 ```text
-Short Range:
-x1 HCOG Classic - optic_cq_hcog_classic
-x2 HCOG Bruiser - optic_cq_hcog_bruiser
-x1 Holosight - optic_cq_holosight
-x1 Digital Threat - optic_cq_threat
-x1-2 Holosight Variable - optic_cq_holosight_variable
+近距離:
+方鏡 x1  - optic_cq_hcog_classic
+方鏡 x2  - optic_cq_hcog_bruiser
+圓鏡 x1  - optic_cq_holosight
+圓鏡 x1-2 - optic_cq_holosight_variable
+數位威脅 x1 - optic_cq_threat
 
-Middle Range:
-x3 HCOG Ranger - optic_ranged_hcog
-x2-4 AOG Variable - optic_ranged_aog_variable
+中距離:
+x3    - optic_ranged_hcog
+x2-4  - optic_ranged_aog_variable
 
-Long Range:
-x6 Sniper - optic_sniper
-x4-8 Sniper Variable - optic_sniper_variable
-x4-10 Sniper Digital Threat - optic_sniper_threat
+遠距離:
+x6     - optic_sniper
+x4-8   - optic_sniper_variable
+x4-10  - optic_sniper_threat
 ```
 
-**Barrel**
+**槍管**
 
 ```text
-Level 1 - barrel_stabilizer_l1
-Level 2 - barrel_stabilizer_l2
-Level 3 - barrel_stabilizer_l3
-Level 4(Gold) - barrel_stabilizer_l4_flash_hider
+等級1 - barrel_stabilizer_l1
+等級2 - barrel_stabilizer_l2
+等級3 - barrel_stabilizer_l3
+等級4(金) - barrel_stabilizer_l4_flash_hider
 ```
 
-**Stock**
+**槍托**
 
 ```text
-Tactical:
-Level 1 - stock_tactical_l1
-Level 2 - stock_tactical_l2
-Level 3 - stock_tactical_l3
+標準:
+等級1 - stock_tactical_l1
+等級2 - stock_tactical_l2
+等級3 - stock_tactical_l3
 
-Sniper:
-Level 1 - stock_sniper_l1
-Level 2 - stock_sniper_l2
-Level 3 - stock_sniper_l3
+狙擊槍:
+等級1 - stock_sniper_l1
+等級2 - stock_sniper_l2
+等級3 - stock_sniper_l3
 ```
 
-**Shotgun Bolts**
+**霰彈槍槍栓**
 
 ```text
-Level 1 - shotgun_bolt_l1
-Level 2 - shotgun_bolt_l2
-Level 3 - shotgun_bolt_l3
+等級1 - shotgun_bolt_l1
+等級2 - shotgun_bolt_l2
+等級3 - shotgun_bolt_l3
 ```
 
-**Mags**
+**彈匣**
 
 ```text
-Light:
-Level 1 - bullets_mag_l1
-Level 2 - bullets_mag_l2
-Level 3 - bullets_mag_l3
+輕型:
+等級1 - bullets_mag_l1
+等級2 - bullets_mag_l2
+等級3 - bullets_mag_l3
 
-Heavy:
-Level 1 - highcal_mag_l1
-Level 2 - highcal_mag_l2
-Level 3 - highcal_mag_l3
+重型:
+等級1 - highcal_mag_l1
+等級2 - highcal_mag_l2
+等級3 - highcal_mag_l3
 
-Energy:
-Level 1 - energy_mag_l1
-Level 2 - energy_mag_l2
-Level 3 - energy_mag_l3
+能量:
+等級1 - energy_mag_l1
+等級2 - energy_mag_l2
+等級3 - energy_mag_l3
 ```
 
-**Hopup**
+**插件\(其實我不知道怎麼翻這個，因為我們都直接講名字如:渦輪，吧\)**
 
 ```text
-Turbocharger = hopup_turbocharger
-Selectfire Receiver = hopup_selectfire
-Precision Choke = hopup_energy_choke
-Hammerpoint Rounds = hopup_unshielded_dmg
-Anvil Receiver = hopup_highcal_rounds
-Double Tap = hopup_double_tap
+渦輪增壓器 = hopup_turbocharger
+選射機匣  = hopup_selectfire
+精準束流器 = hopup_energy_choke
+錐點彈藥  = hopup_unshielded_dmg
+鐵占機匣  = hopup_highcal_rounds
+雙擊扳機  = hopup_double_tap
 ```
 
-**Helmet**
+**頭盔**
 
 ```text
-helmet_pickup_lv1
-helmet_pickup_lv2
-helmet_pickup_lv3
-helmet_pickup_lv4_abilities
+等級1 - helmet_pickup_lv1
+等級2 - helmet_pickup_lv2
+等級3 - helmet_pickup_lv3
+等級4 - helmet_pickup_lv4_abilities
 ```
 
-**Backpack**
+**背包**
 
 ```text
-backpack_pickup_lv1
-backpack_pickup_lv2
-backpack_pickup_lv3
-backpack_pickup_lv4_revive_boost
+等級1 - backpack_pickup_lv1
+等級2 - backpack_pickup_lv2
+等級3 - backpack_pickup_lv3
+等級4 - backpack_pickup_lv4_revive_boost
 ```
 
-**Armor / Bodyshield**
+**甲\(防護罩\)**
 
 ```text
-armor_pickup_lv1
-armor_pickup_lv2
-armor_pickup_lv3
-armor_pickup_lv4_all_fast
+等級1 - armor_pickup_lv1
+等級2 - armor_pickup_lv2
+等級3 - armor_pickup_lv3
+等級4 - armor_pickup_lv4_all_fast
 ```
 
-**Incapshield / Knockdown Shields**
+**擊倒護盾**
 
 ```text
-incapshield_pickup_lv1
-incapshield_pickup_lv2
-incapshield_pickup_lv3
-incapshield_pickup_lv4_selfrevive
+等級1 - incapshield_pickup_lv1
+等級2 - incapshield_pickup_lv2
+等級3 - incapshield_pickup_lv3
+等級4 - incapshield_pickup_lv4_selfrevive
 ```
 

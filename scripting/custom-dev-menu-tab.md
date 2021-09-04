@@ -1,17 +1,21 @@
-# Custom Dev Menu Tab \(UNSAFE\)
+---
+description: 這部分翻譯不一定準確，適當參考英文原版
+---
+
+# 自訂義開發者選單\(Dev Menu\) \(不安全\)
 
 {% hint style="danger" %}
-We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary security risks! Instead, refer to the page on how to add a custom menu altogether.
+我們不推間用Dev模式開服，因為她會帶來不必要的安全性問題，想新增選單請移步如何增加新的選單\(未完工\)。
 {% endhint %}
 
-1: you start by going into `\platform\scripts\vscripts\ai\sh_dev_npc_settings.gnut`and adds in the top a new global function `Type global function <Setup<something>` \(Example: global function SetupCustomThings\)
+1.打開 `\platform\scripts\vscripts\ai\sh_dev_npc_settings.gnut`並在上面添加一個global function: `global function Setup<something>` \(如: global function SetupCustomThings\)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
   
-2: you then go down in the bottom and adds a new void function `Type "void function Setup<something>()"` \(Example: void function SetupCustomThings\(\)\)
+2: 然後到底下添加一個void function `void function Setup<something>()` \(如: void function SetupCustomThings\(\)\)
 
-3: under the void function do you type:
+3: 在void function底下輸入:
 
 ```text
 {
@@ -23,18 +27,18 @@ We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary s
 }
 ```
 
-4: then you gotta go to `\platform\scripts\vscripts\ui\menu_dev.nut` and under line 271 can you type your new menu up \(place it in the code = where in line you want it to be in the dev menu\)
+4: 到 `\platform\scripts\vscripts\ui\menu_dev.nut` 然後在271行位置即可輸入你的選單\(放在程式中的順序即為dev menu中的位置\)
 
-5: then you have found where you want the menu to be then type `SetupDevMenu( "<Name of the new dev menu>", SetDevMenu_<what you typed after "Setup" in your global and void function> )` \(Example: SetupDevMenu\( "Custom Community Things", SetDevMenu\_CustomThings \)\)
+5: 找到你想要的位置後輸入: `SetupDevMenu( "<dev menu的名稱>", SetDevMenu_<你在global和void function中"Setup"後的內容> )` \(Example: SetupDevMenu\( "Custom Community Things", SetDevMenu\_CustomThings \)\)
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-6: then go down under line 392 and add a new void function:
+6: 往下移到392行新增一個void function:
 
 ```text
-void function SetDevMenu_<what you typed after "Setup" in your global and void function>( var _ )
+void function SetDevMenu_<你在global和void function中"Setup"後的內容>( var _ )
 {
-    thread ChangeToThisMenu( Setup<what you typed after "Setup" in your global and void function> )
+    thread ChangeToThisMenu( Setup<你在global和void function中"Setup"後的內容> )
 }
 ```
 
