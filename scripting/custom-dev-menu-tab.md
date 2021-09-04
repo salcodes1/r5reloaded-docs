@@ -1,7 +1,7 @@
 # Custom Dev Menu Tab \(UNSAFE\)
 
 {% hint style="danger" %}
-We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary security risks! Instead, refer to the page on how to add a custom menu altogether.
+We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary security risks!
 {% endhint %}
 
 1: you start by going into `\platform\scripts\vscripts\ai\sh_dev_npc_settings.gnut`and adds in the top a new global function `Type global function <Setup<something>` \(Example: global function SetupCustomThings\)
