@@ -1,6 +1,6 @@
 # 无法打开开发者菜单
 
-If you are trying to enable the DEV menu for yourself but it still won't show up no matter what you do, it might be because the path to your game is too long.
+如果您试图在游戏中使用“Dev Menu”（开发者菜单），但无论按什么键，它都不显示，这可能是因为您的游戏路径太长。
 
 Try moving your game folder out of any directories you have it in, so the path to it is way shorter. For example:
 
