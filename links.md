@@ -4,9 +4,13 @@ description: 你們要帶我去哪裡?
 
 # 連結
 
-## 我們的官方Discord
+## R5Reloaded的官方Discord
 
 {% embed url="https://discord.gg/r5reloaded" %}
+
+## R5Reloaded 中文Discord:[https://discord.gg/ZVWUpfuryT](https://discord.gg/ZVWUpfuryT)
+
+## 中文影片教學:[https://www.youtube.com/watch?v=y8ckVT7qGEc](https://www.youtube.com/watch?v=y8ckVT7qGEc)
 
 ## GitHub 的repositories
 
