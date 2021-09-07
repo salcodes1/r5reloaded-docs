@@ -11,7 +11,11 @@
 
 ## Helpful Commands
 
-* [Copy Paste Commands](helpful-commands/copy-paste-commands.md)
+* [Commands](helpful-commands/commands/README.md)
+  * [Ban Commands](helpful-commands/commands/ban-commands.md)
+  * [Status Command](helpful-commands/commands/status-command.md)
+  * [Kick Commands](helpful-commands/commands/kick-commands.md)
+  * [Copy Paste Commands](helpful-commands/commands/copy-paste-commands.md)
 * [List of what things are called in the files](helpful-commands/list-of-what-things-are-called-in-the-files.md)
 
 ## Scripting
