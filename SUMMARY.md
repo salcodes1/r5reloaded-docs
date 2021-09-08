@@ -11,7 +11,11 @@
 
 ## 关于命令 <a id="helpful-commands"></a>
 
-* [常用命令](helpful-commands/copy-paste-commands.md)
+* [控制台指令](helpful-commands/commands/README.md)
+  * [常用命令](helpful-commands/commands/copy-paste-commands.md)
+  * [封禁指令](helpful-commands/commands/ban-commands.md)
+  * [服务器状态指令](helpful-commands/commands/status-command.md)
+  * [踢出指令](helpful-commands/commands/kick-commands.md)
 * [文件中调用的命令列表](helpful-commands/list-of-what-things-are-called-in-the-files.md)
 
 ## 脚本 <a id="scripting"></a>
