@@ -1,58 +1,59 @@
 ---
-description: Frequently Asked Questions
+description: 'Często zadawane pytania:'
 ---
 
 # FAQ
 
-## Can I play on Console?
+## Czy mogę zagrać na konsoli?
 
-No, this project is PC only. You can't invite your console friends and can't play on console.
+Nie, tylko na PC. Nie ma nawet możliwości zaproszenia znajomego z konsoli.
 
-## Can I use in-game cosmetics?
+## Czy można używać skinów?
 
-No, in-game cosmetics are disabled and will stay disabled. If you want to have In-game cosmetics, buy them in the actual game.
+Nie, wszystkie kosmetyki w grze są wyłączone i zostaną tak na zawsze. Jeżeli chcesz pograć ze skinami, kup je w normalnej grze.
 
 {% hint style="danger" %}
-**We urge you to not attempt enabling cosmetics as this can put the whole project at risk! The development would cease and files wouldn't be accessible anymore.**
+Prosimy nie próbować włączać je z powrotem na siłę, ponieważ może to zagrozić całemu projektowi! Praca nad projektem musiałaby zostać zatrzymana, przez co by przestał istnieć.
 {% endhint %}
 
-## Can I use my Season 10 Apex files?
+## Czy mogę użyć plików z Sezonu 10 Apexa?
 
-**Under absolutely no circumstances should you attempt to run th**i**s** **with Season 10 Apex files**.
+**Nigdy nie próbuj uruchomiać tego projektu na plikach z Sezonu 10!**
 
-Doing this won't work as Easy Anti-Cheat will block it or may even **ban** you! You need to download the Season 3 Apex build files with the build string `R5pc_r5launch_N1094_CL456479_2019_10_30_05_20_PM`.
+To nie zadziała, ponieważ Easy Anti-Cheat zablokuje je, a nawet może cię **zbanować**.  
+Musisz pobrać pliki Sezonu 3, a dokładnie wersje: `R5pc_r5launch_N1094_CL456479_2019_10_30_05_20_PM`
 
-## What can I do with this project?
+## Jakie możliwości posiada ten projekt?
 
-You can create your own lobbies, you can play with your friends and other people. We also have a Server Browser so you can find other servers.
+Możesz zrobić swoje własne lobby, możesz grać ze znajomymi bądź innymi graczami. Posiadamy własną przeglądarkę serwerów, przez co znalezienie gry jest banalnie łatwe.
 
-## How do you properly host servers?
+## Jak zhostować grę?
 
-You need to port-forward from port range **37015-37020** on **UDP** otherwise no one will be able to connect. If you host to the Server Browser and don't have those ports forwarded no one can join you. Same for hosting hidden servers. Please keep that in mind. 
+Musisz przekierować porty **37015-37020** **UDP**. Jeżeli tego nie zrobisz, nikt nie będzie mógł do ciebie dołączyć, ani publicznie ani prywatnie.
 
 {% hint style="info" %}
-You can still play offline and your friends can join you if you're all on the same network.
+Bez prekierowania portów dalej masz możliwość grania samemu, a jeżeli twoi znajomi są podłączeni pod tą samą sieć, to z nimi też pograsz.
 {% endhint %}
 
-## I'm stuck on the main menu. What should I do?
+## Jestem w menu i nic się nie dzieje, co mam zrobić?
 
-When in-game press `~` or insert key to open the console, `F10`to open the Server Browser.
+Kiedy jesteś w menu, wciśnij ~ bądź Insert, żeby otworzyć konsole a F10, żeby otworzyć przeglądarkę serwerów, hostowanie gry itd.
 
-## My game isn't working. How do I fix it?
+## Coś mi nie działa, Help!
 
-Check out the \#\#Troubleshooting page for common issues and their respective solution. If that doesn't fix your problem, head over to our discord for support.
+Przejrzyj sekcję [Troubleshooting](troubleshooting/could-not-load-bank-digest-file.md), zawiera ona najczęstsze problemy, jakie mógłbyś napotkać. Jeżeli nic nie pomaga, dołącz na nasz serwer [Discord](https://discord.gg/R5Reloaded), a my ci pomożemy.
 
-## Why are some characters not available?
+## Dlaczego nie wszystkie postacie działaja?
 
-We still need to fix/implement some of the legends as Respawn didn't ship all necessary code from them to work out-of-the-box.
+Nie posiadamy potrzebnego kodu, przez co musimy sami je odtwarzać, a to trochę zajmuje.
 
-## Can I play Solos/Duos/Quads/32v32/... ?
+## Czy mogę zagrać Solos/Duos/Quads/32v32/... ?
 
-Yes, that's up to you! Check [The Playlist File](the-playlist-file/introduction.md) introduction to learn how to modify team composition and much more!
+Tak! Przejrzyj sekcję [The Playlist File](the-playlist-file/introduction.md) by dowiedzieć się jak wprowadzić potrzebne zmiany.
 
-## Can I play on maps newer than S3?
+## Czy można zagrać na mapach z innych sezonów niż S3?
 
-For now, you can't. Here are all the available maps:
+Na razie nie. Aktualnie, posiadamy takie mapy:
 
 * Firing Range
 * Kings Canyon Season 0
@@ -61,29 +62,29 @@ For now, you can't. Here are all the available maps:
 * World's Edge
 * **NEW**! World's Edge After Dark
 
-## Is there any ban risk?
+## Czy dostane bana?
 
-We don't have a definitive answer but our project doesn't interfere with the Apex official servers aside from using your Origin account to retrieve the in-game name. Proceed at your own risk.
+Nie posiadamy konkretnej odpowiedzi na to pytanie, lecz ten projekt nie łączy się z prawdziwymi serwerami Apex Legends, a Origin używamy po to, by dostać Nazwe gracza. Postępuj na własną odpowiedzialność.
 
 {% hint style="warning" %}
-We suggest not using your main account for this. You need an origin account with Apex Legends in the library. We also suggest to turn off game auto-updating and use a VPN.
+Sugerujemy nie używać głównego konta. Konto Origin z Apex Legends w bibliotece jest potrzebne, żeby uruchomić ten projekt. Także dobrym pomysłem jest wyłączyć automatyczne aktualizację, oraz używanie VPN
 {% endhint %}
 
 {% hint style="danger" %}
-When creating an alternate account don't use disposable emails. EA will autoban it based on the email domain. Use something _legit_ such as Gmail, Yahoo, Hotmail etc.
+Kiedy tworzysz swoję konto alternatywne, nie używaj skrzynek pocztowych typu Temp mail. EA automatycznie banuje takie konta. Użyj Gmail, Yahoo, Hotmail itp.
 {% endhint %}
 
 
 
-## Are there any bugs?
+## Czy istnieją jakieś bugi, glitche itd.?
 
-**YES**, there are lots of bugs. Bare with us though, as we fix them daily. To follow our progress on features/bugs, check out our [Trello ](https://trello.com/b/ymr4R3j9/r5reloaded)page!
+**TAK**, jest ich mnóstwo. Naprawiamy je codziennie, więc jest ich coraz mniej. Jeżeli chcesz sprawdzić, co naprawiamy, sprawdz nasze [Trello](https://trello.com/b/ymr4R3j9/r5reloaded)!
 
-## Can I contribute?
+## Mogę pomóc?
 
-Sure thing! 
+Oczywiście!
 
-Please open pull requests and issues on our GitHub projects. We appreciate all the help! Additionally, you can contribute to this very documentation by submitting pull requests.
+Zachęcamy do otwierania pull-requestów w naszych repozytoriach projektów. Jesteśmy wdzięczni za każdą pomoc! Możesz także pomóc w tworzeniu/tłumaczeniu dokumentacji, którą właśnie czytasz.
 
-Check out all of our repos in [Links](links.md).
+Wszystkie nasze repo znajdują się w [Links](links.md).
 
