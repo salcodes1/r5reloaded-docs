@@ -1,38 +1,40 @@
 # 踢出指令
 
-## Kicking Clients
+## 踢出客户端
 
-Kicking a client by name works like the following:
+按客户端名称踢出的方式如下所示：
 
 ```text
-kick clientname
+kick 客户端名称
 ```
 
 {% hint style="info" %}
-If special characters do not allow you to kick the client by client name refer to use kickid.
+如果因为客户端名称带有特殊字符而导致无法踢出相应客户端，请参阅使用下面的kickid。
 {% endhint %}
 
-Kicking a player by originid/userid/ipaddress works like the following:
+按OriginID\(橘子ID\)/玩家顺位/IP地址进行踢出的方式如下所示：
 
 ```text
-kickid originid
-kickid userid
-kickid ipaddress
+kickid 橘子ID
+kickid 玩家顺位
+kickid IP地址
 
-Examples don't include the text with the octothorpe:
+使用时不应该带有下列示例中以"#"号开头的文本
 
-kickid 1000000000   #originid
-kickid 1            #userid
-kickid 127.0.0.0    #ipaddress
+kickid 1000000000   #橘子ID
+kickid 1            #玩家在服务器中的位置
+kickid 127.0.0.0    #IP地址
 ```
 
 
 
 {% hint style="info" %}
-You can get the ipaddress and the userid by refering to the page below.
+您可以通过参考下面的链接页面来获取IP地址和玩家顺位。
 
-{% page-ref page="kick-commands.md" %}
+{% page-ref page="status-command.md" %}
 {% endhint %}
+
+
 
 
 

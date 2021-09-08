@@ -1,24 +1,24 @@
 # 服务器状态指令
 
-## Status ConCommand
+## 状态指令
 
-You can get the current server status by doing the following:
+您可以通过执行以下指令操作来获取当前服务器状态：
 
 ```text
 status
 ```
 
-![Output of the status command.](../../.gitbook/assets/chrome_ua8jewo4dh.png)
+![&#x72B6;&#x6001;&#x6307;&#x4EE4;&#x7684;&#x8F93;&#x51FA;&#x7ED3;&#x679C;](../../.gitbook/assets/chrome_ua8jewo4dh.png)
 
-Above you can see the output of the status command.
+在上面的截图中可以看到status命令的输出。
 
-The most important part it gives back is the name, userid and ipaddress of all clients connected to the server.
+它返回的最重要的部分是连接到服务器的所有客户端的名称、玩家顺位和IP地址。
 
-In this example the arrow pointing to '1' is the userid for the client, "IcyCoree" the name of the client, loopback the clients ipaddress.
+在本例中，指向“1”的箭头是客户端在服务器中的位置，“IcyCoree”是客户端的名称，循环返回客户端的IP地址。
 
 {% hint style="info" %}
-Loopback will show for the client hosting the server.
+做为托管服务器的主机客户端将会显示loopback（回环）。
 
-For every other client it will show and ipaddress there instead.
+对于其他每一个链接的客户端，它都会在那里显示相应的IP地址。
 {% endhint %}
 
