@@ -10,5 +10,5 @@
 
 ## スクリプト
 
-* [カスタム開発メニュータブ](sukuriputo/custom-dev-menu-tab.md)
+* [カスタムDev Menuタブ](sukuriputo/custom-dev-menu-tab.md)
 
