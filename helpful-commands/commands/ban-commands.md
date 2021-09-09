@@ -8,14 +8,14 @@ description: >-
 
 ## Banning Clients
 
-Banning a client by name works like the following:
+Banning a client by name works like the following
 
-```text
+```
 ban clientname
 ```
 
 {% hint style="info" %}
-If special characters do not allow you to ban the client by client name refer to use banid.
+ If special characters do not allow you to ban the client by client name refer to use banid.
 {% endhint %}
 
 Banning a player by originid/userid/ipaddress works like the following:
@@ -79,4 +79,6 @@ Reloading the banlist can be done like the following:
 ```text
 reloadbanlist
 ```
+
+
 
