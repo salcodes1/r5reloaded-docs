@@ -8,7 +8,7 @@
 * [R5reloadedの紹介](the-playlist-file/introduction.md)
 * [KV 一覧表](the-playlist-file/kv-table.md)
 
-## Coding Modifications
+## スクリプト
 
-* [Custom Dev Menu Tab \(UNSAFE\)](coding-modifications/custom-dev-menu-tab.md)
+* [カスタム開発メニュータブ](sukuriputo/custom-dev-menu-tab.md)
 

@@ -1,17 +1,17 @@
-# Custom Dev Menu Tab \(UNSAFE\)
+# カスタム開発メニュータブ
 
 {% hint style="danger" %}
-We do **NOT** encourage hosting servers in Dev mode. It introduces unnecessary security risks! Instead, refer to the page on how to add a custom menu altogether.
+開発モードでのホスティングは推奨しません。不必要なセキュリティリスクが発生します。その代わりに、カスタムメニューを追加する方法のページを参照してください。
 {% endhint %}
 
-1: you start by going into `\platform\scripts\vscripts\ai\sh_dev_npc_settings.gnut`and adds in the top a new global function `Type global function <Setup<something>` \(Example: global function SetupCustomThings\)
+1:まず、トップに入って新しいグローバル機能を追加します。 `\platform\scripts\vscripts\ai\sh_dev_npc_settings.gnut`and adds in the top a new global function `Type global function <Setup<something>` \(例: global function SetupCustomThings\)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
   
-2: you then go down in the bottom and adds a new void function `Type "void function Setup<something>()"` \(Example: void function SetupCustomThings\(\)\)
+2: その後、下の方に行って、新しいvoid関数を追加します。`Type "void function Setup<something>()"` \(Example: void function SetupCustomThings\(\)\)
 
-3: under the void function do you type:
+3: void関数の下には、次のように入力します。:
 
 ```text
 {
