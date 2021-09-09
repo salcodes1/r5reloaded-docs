@@ -8,7 +8,7 @@ description: >-
 
 ## Banning Clients
 
-Banning a client by name works like the following:
+Banning a client by name works like the following
 
 ```
 ban clientname
