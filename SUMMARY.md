@@ -1,6 +1,6 @@
 # Table of contents
 
-* [R5reloadedドキュメントへようこそ](README.md)
+* [Welcome](README.md)
 * [FAQ](faq.md)
 * [Links](links.md)
 
