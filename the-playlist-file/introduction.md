@@ -1,109 +1,154 @@
-# Introduction
+# R5reloadedの紹介
 
-## What is the playlist file?
+## プレイリストファイルとは
 
-The playlist file is a plain text file located in your game directory's `platform` folder. It manages:
+プレイリストファイルは、ゲームディレクトリのplatformフォルダ内にあるプレーンテキストファイルで管理しています。
 
-* Default game parameters \(e.g. `match_ending_enabled`\)
-* Gamemodes \(e.g. `custom_tdm`, `survival`\) and what maps these gamemodes can be played on
-* Gamemode parameters \(e.g. `default_shield_hp` for `custom_tdm`\)
+* デフォルトのパラメーター \(例. `match_ending_enabled`\)
+* ゲームモード \(例. `custom_tdm`, `survival`\) がどのようなマップでプレイできるのか。
+* ゲームモードのパラメーター \(例. `custom_tdm`に`default_shield_hp`\)
 
-Through the playlist file, you can customize any gamemode without needing to know how to code.
+プレイリストファイルを使えば、コードが分からなくても、どんなゲームモードでもカスタマイズできます。
 
-## How do I modify the playlist file?
+## プレイリストファイルを改変するには
 
-Simply open the file with any text/code editor.
+テキストエディタ、コードエディタでファイルを開くだけです。
 
-### Structure
+### プレイリストファイルの構成
 
-In the playlist file, there's the gamemodes, and there's the playlists. Gamemodes are defined in the `Gamemodes` block, while playlists are defined in the `Playlists` block. At the bottom of the file, you will also find `KVFileOverrides`.
+プレイリストファイルには、ゲームモードとプレイリストがあります。ゲームモードは`Gamemodes`ブロック、プレイリストは`Playlists`ブロックで定義されています。また、ファイルの下部には`KVFileOverrides`があります。
 
 {% hint style="warning" %}
-Playlists and gamemodes can share the same name \(e.g. `custom_tdm`\)! You can differentiate them by looking in which block they're defined.
+プレイリストとゲームモードは同じ名前を使うことができます\(例：custom\_tdm\)。どのブロックで定義されているかで見分けることができます。
 {% endhint %}
 
-#### Gamemodes block
+#### `Gamemodes`について
 
-Gamemodes are **bases** which the playlists **build upon**. You do not typically need to modify anything in this block. Currently, we have as base gamemodes:
+ゲームモードは、プレイリストのベースとなるものです。このブロックでは通常、何も変更する必要はありません。現在、ベースとなるゲームモードは次のとおりです。 
 
-* `survival`: standard Apex Battle Royale experience
-* `custom_tdm`:despite its name, it's a variable-team deathmatch experience with respawns
+* `survival`: 標準的なバトルロイヤルです。
+* `custom_tdm`:その名の通り、リスポーンのあるチームデスマッチです。
 
-#### Playlists block
+#### `Playlists`について
 
-This is where you can define playlists in order to modify the behavior of the gamemodes. We will talk about this section more in just a bit.
+ここでは、ゲームモードの動作を変更するためのプレイリストを定義することができます。このセクションについては、後ほど詳しく説明します。
 
 {% hint style="info" %}
-Multiple playlists can have the same base gamemode.
+複数のプレイリストが同じゲームモードを持つことができます。
 {% endhint %}
 
-#### KVFileOverrides block
+#### `KVFileOverrides`について
 
-This is where you can modify weapon values, such as damage, ammo count etc. You can read more about how to modify weapon properties in the Weapons section.
+ここでは、ダメージや弾薬の数など、武器の値を変更することができます。武器のプロパティを変更する方法については、「武器」のセクションで詳しく説明しています。
 
 {% hint style="danger" %}
-We urge you to use this method instead of modifying the files `scripts/weapons/*` , as the changes are broadcasted to every player connected to you, so no weird issues arise using this method. This way, no desync issues/weird bugs will arise.
+scripts/weapons/\*を変更するのではなく、この方法を使うことで、接続しているすべてのプレイヤーに変更が反映されるため、問題が発生しません。この方法では、同期ズレの問題や奇妙なバグは発生しません。
 {% endhint %}
 
-#### Now, let's look at an example:
+####  では、例を見てみましょう。
 
 ```yaml
 Playlists
 {
-    custom_tdm
-    {
-                inherit defaults
-                vars
-                {
-                    max_teams                          2
-                    min_players                        2
-                    max_players                        64
-
-                    //TDM Settings
-                    survival_jumpkit_enabled           1
-                    survival_wallrun_enabled           1
-                    survival_infinite_ammo             1
-                    default_shield_hp                  75
-                    ground_loot_enable                 0
-                    lootbin_loot_enable                0
-
-                    //whitelisted_weapon_0                   "mp_weapon_mastiff"
-
-                    jump_from_plane_enabled            0
-                    match_ending_enabled               0
-                    sur_circle_start_paused            1
-
-
-                }
-                gamemodes { custom_tdm { maps {
-                    mp_rr_desertlands_64k_x_64k 1
-                } } }
-        }
+	custom_tdm
+	{
+				inherit defaults
+				vars
+				{
+					max_teams                          2
+					min_players                        2
+					max_players                        64
+					
+					//TDM Settings
+					survival_jumpkit_enabled           1
+					survival_wallrun_enabled           1
+					survival_infinite_ammo             1
+					default_shield_hp                  75
+					ground_loot_enable                 0
+					lootbin_loot_enable                0
+	
+					//whitelisted_weapon_0			       "mp_weapon_mastiff"
+	
+					jump_from_plane_enabled            0
+					match_ending_enabled               0
+					sur_circle_start_paused            1
+	
+	
+				}
+				gamemodes { custom_tdm { maps {
+					mp_rr_desertlands_64k_x_64k 1
+				} } }
+		}
 }
+
+
 ```
 
-The above is an excerpt from the `custom_tdm` **playlist** settings. You can find the full version in the file.
+上記は、`custom_tdm`**プレイリスト**設定の一部です。すべてのプレイリスト設定はファイルの中にあります。
 
-First of all, anything preceded by `//` is not read by the game and is named a **comment**. It is there only to help other people understand what you've done, or to neatly organize all the properties you've written. A common practice is to **comment** properties you want to temporarily disable without deleting them, as the game will not read the contents.
+まず第一に、//の前にあるものはゲームでは読まれず、 **コメント** と名付けられます\(例://whitelisted\_weapon\)。コメントは、あなたが行ったことを他の人に理解してもらうため、あるいはあなたが書いたすべてのプロパティをきれいに整理するためにのみ存在します。よくあるのは、一時的に無効にしたいプロパティを削除せずにコメントしておくことで、ゲームはその内容を読みません。
 
 ```text
 max_teams 2
 ```
 
-In the code above, you see what we'll refer to going forward as a **KV** \(key-value\) or **PlaylistVar**. The **key** is the property name \(`max_teams`\) and the value is, well, the value of said property \(`2`\). The game will read this **KV** and make it so the players only get distributed in 2 teams, which is perfect for a Team Deathmatch!
+上のコードでは、今後**KV**（`key-value`）またはPlaylistVarと呼ばれるものが出てきました。**Key**はプロパティ名（`max_teams`）で、値はそのプロパティの値（2）です。ゲームはこの**KV**を読み込んで、プレイヤーが2チームにしか分配されないようにするので、チームデスマッチには最適です。
 
-KV's support multiple value **types**:
+複数のキータイプに対応しています
 
-| Type | Explanation | Example |
-| :--- | :--- | :--- |
-| `int` | Integer | `3`, `-41` |
-| `bool` | Must be either `0` or `1`  Typically used for PlaylistVars with _\*\*_only 2 possible values, such as`replay_enabled` | `0` |
-| `float` | Rational numbers | `3.14` |
-| `string` | Plain text  **Must be surrounded by** `"` | `"mp_weapon_mastiff"` |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Type</th>
+      <th style="text-align:left">Explanation</th>
+      <th style="text-align:left">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>int</code>
+      </td>
+      <td style="text-align:left">&#x6570;&#x5024;</td>
+      <td style="text-align:left"><code>3</code>, <code>-41</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>bool</code>
+      </td>
+      <td style="text-align:left">0(&#x306A;&#x3057;)&#x304B;1(&#x3042;&#x308A;)&#x306E;&#x307F;&#x3067;&#x3059;
+        <br
+        />
+        <br />&#x901A;&#x5E38;&#x3001;replay_enabled&#x306A;&#x3069;&#x3001;2&#x3064;&#x306E;&#x5024;&#x3057;&#x304B;&#x306A;&#x3044;PlaylistVar&#x306B;&#x4F7F;&#x7528;&#x3055;
+        &#x308C;&#x307E;&#x3059;&#x3002;</td>
+      <td style="text-align:left"><code>0</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>float</code>
+      </td>
+      <td style="text-align:left">Rational numbers</td>
+      <td style="text-align:left"><code>3.14</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>string</code>
+      </td>
+      <td style="text-align:left">
+        <p>&#x6587;&#x5B57;&#x5217;
+          <br />
+        </p>
+        <p><em><b>&quot;&#x306B;&#x56F2;&#x307E;&#x308C;&#x3066;&#x3044;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</b></em>
+        </p>
+      </td>
+      <td style="text-align:left"><code>&quot;mp_weapon_mastiff&quot;</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-## Practical Example
+## 例
 
-Team Deathmatch is nice and all, but, because of the flexibility of the playlist file, we can make it into a Free For All without any code changes, with the following properties changed:
+チームデスマッチもいいですが、プレイリストファイルには柔軟性があるので、コードを変更することなく、以下のプロパティを変更することで、自由参加\(free for all\)にすることができます。
 
 ```text
 max_teams                          64
@@ -111,13 +156,13 @@ max_players                        64
 max_team_players                   1
 ```
 
-Notice that we use a new KV called `max_team_players`. This will make it so the game is forced to leave only 1 player in each team.
+`max_team_players`という新しいKVを使っていることに注目してください。これにより、ゲームでは各チームに1人のプレーヤーしか残らないようにすることができます。
 
 {% hint style="warning" %}
-Make sure `max_players` isn't greater than `max_teams` though, because the game will not have enough teams to assign the players to!
+ただし、`max_players`が`max_teams`以上にならないようにしてください。
 {% endhint %}
 
-## I want more!
+## もっと知りたい場合
 
-Continue to the next section, where you can read about all of the KVs you can modify.
+次のセクションに進むと、変更可能なすべてのKVについて説明しています。
 
