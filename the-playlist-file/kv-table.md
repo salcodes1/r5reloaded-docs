@@ -14,6 +14,7 @@
 | `survival_infinite_ammo` | `bool` | Unlimited ammo for all weapons |
 | `ground_loot_enable` | `bool` | Whether loot should spawn on the ground |
 | `lootbin_loot_enable` | `bool` | Whether loot should spawn in loot bins |
+| `circular_hud` | `bool` | Whether to enable spherical reactive HUD from Titanfall 2 |
 {% endtab %}
 
 {% tab title="Custom TDM" %}
