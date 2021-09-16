@@ -12,7 +12,7 @@ Origin will quickly ban your account if it detects you've used a temp mail.
 
 After you log in, you need to add Apex Legends to your library:
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2819%29%20%281%29.png)
 
 Once you do that, it's recommended to disable auto-updates.   
 To do so go to `Origin->Application Settings`.
