@@ -21,6 +21,7 @@
 ## Scripting
 
 * [Introduction](scripting/introduction-1.md)
+* [Level Editor](scripting/level-editor.md)
 * [CUSTOM\_TDM](scripting/custom_tdm/README.md)
   * [How to auto-give weapons/abilities to players](scripting/custom_tdm/how-to-auto-give-weapons-abilities-to-players.md)
 * [Custom Dev Menu Tab \(UNSAFE\)](scripting/custom-dev-menu-tab.md)
