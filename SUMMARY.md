@@ -44,6 +44,7 @@
 
 ## 脚本方法介绍 <a id="scripts-function"></a>
 
+* [Squirrel的基础知识](scripts-function/squirrel-de-ji-chu-zhi-shi.md)
 * [武器](scripts-function/weapon/README.md)
   * [配件](scripts-function/weapon/mod.md)
   * [武器行为](scripts-function/weapon/wu-qi-hang-wei.md)
