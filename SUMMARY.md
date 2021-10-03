@@ -42,3 +42,11 @@
 
 * [重生松鼠\(Squirrel\) 脚本语言参考](https://r5reloaded.gitbook.io/respawn-squirrel-reference/)
 
+## 脚本方法介绍 <a id="scripts-function"></a>
+
+* [武器](scripts-function/weapon/README.md)
+  * [配件](scripts-function/weapon/mod.md)
+  * [武器行为](scripts-function/weapon/wu-qi-hang-wei.md)
+  * [武器动作](scripts-function/weapon/wu-qi-dong-zuo.md)
+  * [获取武器参数](scripts-function/weapon/huo-qu-wu-qi-can-shu.md)
+
